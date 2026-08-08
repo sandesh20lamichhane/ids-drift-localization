@@ -1,0 +1,153 @@
+{
+  "notebook": "20_cross_dataset_replication",
+  "decision": "D038",
+  "finding": "F026",
+  "generated": "2026-06-12",
+  "seed": 42,
+  "dataset": "UNSW-NB15",
+  "window_size": 5000,
+  "n_windows": 14,
+  "n_quiet": 5,
+  "n_drift": 9,
+  "seen_families": [
+    "generic",
+    "exploits",
+    "fuzzers",
+    "dos"
+  ],
+  "novel_families": [
+    "reconnaissance",
+    "analysis",
+    "backdoor",
+    "shellcode",
+    "worms"
+  ],
+  "tau": 0.026835126498888116,
+  "budget_grid": [
+    250,
+    2500,
+    25000
+  ],
+  "accounting": [
+    {
+      "policy": "never",
+      "recall": 0.9564754811877357,
+      "precision": 0.8749778800212352,
+      "fpr": 0.13144186046511627,
+      "f1": 0.9139134051106695,
+      "alert_volume_fp": 6176,
+      "label_cost": 0,
+      "compute_s": 0.0,
+      "n_retrains": 0,
+      "n_triggers": 0
+    },
+    {
+      "policy": "triggered_250",
+      "recall": 0.7829093722797176,
+      "precision": 0.9887619861967873,
+      "fpr": 0.008558139534883722,
+      "f1": 0.8738765485412,
+      "alert_volume_fp": 851,
+      "label_cost": 500,
+      "compute_s": 0.4,
+      "n_retrains": 2,
+      "n_triggers": 2
+    },
+    {
+      "policy": "always_cheap_250",
+      "recall": 0.822516684398878,
+      "precision": 0.9888947031804175,
+      "fpr": 0.008883720930232559,
+      "f1": 0.8980647886580247,
+      "alert_volume_fp": 858,
+      "label_cost": 3500,
+      "compute_s": 3.3,
+      "n_retrains": 14,
+      "n_triggers": 14
+    },
+    {
+      "policy": "triggered_2500",
+      "recall": 0.8395879678885773,
+      "precision": 0.9917737789203085,
+      "fpr": 0.006697674418604651,
+      "f1": 0.9093575675038631,
+      "alert_volume_fp": 811,
+      "label_cost": 5000,
+      "compute_s": 0.5,
+      "n_retrains": 2,
+      "n_triggers": 2
+    },
+    {
+      "policy": "triggered_25000",
+      "recall": 0.8483412322274881,
+      "precision": 0.9923068220386921,
+      "fpr": 0.006325581395348837,
+      "f1": 0.9146939201168004,
+      "alert_volume_fp": 803,
+      "label_cost": 10000,
+      "compute_s": 0.6,
+      "n_retrains": 2,
+      "n_triggers": 2
+    },
+    {
+      "policy": "periodic",
+      "recall": 0.8696198858690396,
+      "precision": 0.9789318961293484,
+      "fpr": 0.018,
+      "f1": 0.9210438702076985,
+      "alert_volume_fp": 2420,
+      "label_cost": 20000,
+      "compute_s": 1.0,
+      "n_retrains": 4,
+      "n_triggers": 0
+    },
+    {
+      "policy": "always_cheap_2500",
+      "recall": 0.8518715543089274,
+      "precision": 0.9927299368800722,
+      "fpr": 0.006,
+      "f1": 0.9169225964291291,
+      "alert_volume_fp": 796,
+      "label_cost": 34678,
+      "compute_s": 7.2,
+      "n_retrains": 14,
+      "n_triggers": 14
+    },
+    {
+      "policy": "always_sliding",
+      "recall": 0.8727633233388142,
+      "precision": 0.9775213952984508,
+      "fpr": 0.019302325581395347,
+      "f1": 0.9221768012263669,
+      "alert_volume_fp": 1082,
+      "label_cost": 65000,
+      "compute_s": 3.4,
+      "n_retrains": 13,
+      "n_triggers": 0
+    },
+    {
+      "policy": "always_cheap_25000",
+      "recall": 0.8559822033078635,
+      "precision": 0.9938236945536215,
+      "fpr": 0.0051162790697674414,
+      "f1": 0.9197672001662855,
+      "alert_volume_fp": 777,
+      "label_cost": 67178,
+      "compute_s": 12.9,
+      "n_retrains": 14,
+      "n_triggers": 14
+    }
+  ],
+  "fa_rate_quiet": 0.2,
+  "necessity": "trigger EARNS its place: fires 2/14 vs always_cheap 14, saves 3,000 labels at recall 0.783 vs 0.823",
+  "gates": {
+    "g1_replication": false,
+    "g2_selectivity": false,
+    "g3_necessity": true,
+    "g4_determinism": true,
+    "FA_MAX": 0.1,
+    "RECALL_MARGIN": 0.05,
+    "FPR_MARGIN": 0.05
+  },
+  "verdict": "CROSS-DATASET-CHECK-FAILED"
+}

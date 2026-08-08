@@ -1,0 +1,2 @@
+dataset,run_version,n_features,n_nondegenerate,median_redundancy,leakage_floor_size5,decorrelated_target_reachable,best_size5_set,prereg_P1_holds (median >= 0.85),prereg_P2_holds (floor >= 0.20),verdict
+cse_cic_ids2018,v2_post_attempted_category_fix (A1.0),82,60,0.969,0.365,False,"['bwd_header_length', 'flow_bytes_s', 'total_tcp_flow_time', 'fwd_init_win_bytes', 'fwd_header_length']",True,True,UNREACHABLE-REGIME-CONFIRMED — R2 replicates on a third dataset; proceed to notebooks 24/25.

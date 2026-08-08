@@ -1,0 +1,28 @@
+{
+  "generated": "2026-06-04T16:29:24",
+  "seeds": [
+    42,
+    1,
+    7,
+    13,
+    23
+  ],
+  "perm_repeats": 20,
+  "topk": 15,
+  "chance_jaccard": 0.10067114093959732,
+  "disagree_max": 0.35,
+  "self_min": 0.5,
+  "rf": {
+    "shap_self": 0.9208333333333334,
+    "perm_self": 0.584377556854337,
+    "shap_perm": 0.1583240431066518,
+    "shap_gain": 0.5429527472871126,
+    "perm_gain": 0.1470281953040574
+  },
+  "xgb": {
+    "shap_perm": 0.35009410878976094,
+    "shap_gain": 0.24695652173913044,
+    "perm_gain": 0.19484330484330484
+  },
+  "verdict": "PERMUTATION-DRIVEN"
+}

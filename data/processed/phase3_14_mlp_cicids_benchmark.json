@@ -1,0 +1,84 @@
+{
+  "generated": "2026-06-09T05:46:52",
+  "dataset": "CICIDS2017",
+  "construction": "additive leave-one-family-out (as notebook 13)",
+  "n_features": 82,
+  "pool_cap": 400000,
+  "heldout_families": [
+    "Portscan",
+    "DoS Hulk",
+    "DDoS"
+  ],
+  "models": [
+    "rf",
+    "xgb",
+    "mlp"
+  ],
+  "seeds": [
+    42,
+    1,
+    7
+  ],
+  "k": 10,
+  "chance": 0.12195121951219512,
+  "margin": 0.05,
+  "replication_by_model": {
+    "rf": {
+      "ks": 0.7,
+      "domain_shap": 0.5666666666666668,
+      "dual_ids": 0.37777777777777777,
+      "ks_minus_dom": 0.1333333333333332,
+      "dual_minus_dom": -0.188888888888889,
+      "circularity": 0.1777777777777777
+    },
+    "xgb": {
+      "ks": 0.7,
+      "domain_shap": 0.3444444444444444,
+      "dual_ids": 0.25555555555555554,
+      "ks_minus_dom": 0.35555555555555557,
+      "dual_minus_dom": -0.08888888888888885,
+      "circularity": 0.31111111111111117
+    },
+    "mlp": {
+      "ks": 0.7,
+      "domain_shap": 0.5777777777777778,
+      "dual_ids": 0.5111111111111111,
+      "ks_minus_dom": 0.12222222222222212,
+      "dual_minus_dom": -0.06666666666666676,
+      "circularity": 0.0444444444444444
+    }
+  },
+  "control_by_model": {
+    "rf": {
+      "treeshap": 0.5666666666666668,
+      "perm": 0.47777777777777775,
+      "ks_minus_perm": 0.2222222222222222
+    },
+    "xgb": {
+      "treeshap": 0.3444444444444444,
+      "perm": 0.4,
+      "ks_minus_perm": 0.29999999999999993
+    },
+    "mlp": {
+      "treeshap": NaN,
+      "perm": 0.5777777777777778,
+      "ks_minus_perm": 0.12222222222222212
+    }
+  },
+  "mlp_gate": {
+    "ks": 0.7,
+    "domain_shap": 0.5777777777777778,
+    "dual_ids": 0.5111111111111111,
+    "ks_minus_dom": 0.12222222222222212,
+    "dual_minus_dom": -0.06666666666666676
+  },
+  "control_ks_minus_domshap_perm": {
+    "rf": 0.2222222222222222,
+    "xgb": 0.29999999999999993,
+    "mlp": 0.12222222222222212
+  },
+  "replication_verdict": "C2-REPLICATES-NEURAL-CICIDS",
+  "control_verdict": "NO-MLP-ADVANTAGE-CICIDS",
+  "headline": "CICIDS does NOT reproduce the UNSW neural advantage: KS is competitive with domain-SHAP for the MLP here too. The UNSW boundary is dataset-specific -- which strengthens the overall \"explanations do not reliably beat the cheap test\" thesis.",
+  "mirrors": "notebook 13 (D030) + 13b (D031), on CICIDS2017"
+}

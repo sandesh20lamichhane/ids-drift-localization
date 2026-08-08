@@ -1,0 +1,5 @@
+regime,breadth,frozen_recall,triggered2500_recall,always_sliding_recall,interpretation
+CICIDS catastrophic (nb19 ref),—,0.0,0.913,0.909,recall recovery
+UNSW breadth=1 (generic),1,0.63,0.868,0.958,recall recovery
+UNSW breadth=2 (generic+exploits),2,0.691,0.914,0.933,recall recovery
+UNSW breadth=4 (generic+exploits+fuzzers+dos),4,0.984,0.842,0.864,FPR reduction (mild)

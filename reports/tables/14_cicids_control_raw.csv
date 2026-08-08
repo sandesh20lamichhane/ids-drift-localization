@@ -1,0 +1,46 @@
+family,model,seed,variant,precision,agree_tree_perm
+Portscan,rf,42,treeshap,0.2,
+Portscan,rf,42,perm,0.1,0.9532020672020475
+Portscan,rf,1,treeshap,0.2,
+Portscan,rf,1,perm,0.2,0.9592199746249318
+Portscan,rf,7,treeshap,0.3,
+Portscan,rf,7,perm,0.2,0.9706571220887403
+Portscan,xgb,42,treeshap,0.3,
+Portscan,xgb,42,perm,0.4,0.9696998542109849
+Portscan,xgb,1,treeshap,0.2,
+Portscan,xgb,1,perm,0.2,0.9776093109254387
+Portscan,xgb,7,treeshap,0.3,
+Portscan,xgb,7,perm,0.4,0.9794070727373463
+Portscan,mlp,42,perm,0.7,
+Portscan,mlp,1,perm,0.6,
+Portscan,mlp,7,perm,0.7,
+DoS Hulk,rf,42,treeshap,0.7,
+DoS Hulk,rf,42,perm,0.6,0.9859908275869581
+DoS Hulk,rf,1,treeshap,0.7,
+DoS Hulk,rf,1,perm,0.6,0.983682787053629
+DoS Hulk,rf,7,treeshap,0.6,
+DoS Hulk,rf,7,perm,0.6,0.973572121093282
+DoS Hulk,xgb,42,treeshap,0.5,
+DoS Hulk,xgb,42,perm,0.5,0.974721905016301
+DoS Hulk,xgb,1,treeshap,0.3,
+DoS Hulk,xgb,1,perm,0.4,0.9704071924173845
+DoS Hulk,xgb,7,treeshap,0.4,
+DoS Hulk,xgb,7,perm,0.4,0.9595986194423215
+DoS Hulk,mlp,42,perm,0.2,
+DoS Hulk,mlp,1,perm,0.4,
+DoS Hulk,mlp,7,perm,0.5,
+DDoS,rf,42,treeshap,0.8,
+DDoS,rf,42,perm,0.6,0.9698927067207816
+DDoS,rf,1,treeshap,0.9,
+DDoS,rf,1,perm,0.8,0.9816361987976225
+DDoS,rf,7,treeshap,0.7,
+DDoS,rf,7,perm,0.6,0.9838545788927171
+DDoS,xgb,42,treeshap,0.4,
+DDoS,xgb,42,perm,0.5,0.9787533284041772
+DDoS,xgb,1,treeshap,0.4,
+DDoS,xgb,1,perm,0.4,0.9726299231501596
+DDoS,xgb,7,treeshap,0.3,
+DDoS,xgb,7,perm,0.4,0.9699059884286215
+DDoS,mlp,42,perm,0.8,
+DDoS,mlp,1,perm,0.6,
+DDoS,mlp,7,perm,0.7,

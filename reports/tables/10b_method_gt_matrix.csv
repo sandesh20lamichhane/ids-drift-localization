@@ -1,0 +1,6 @@
+,wasserstein,domain_oracle_shap,domain_oracle_gain
+ks,0.411,0.561,0.383
+domain_shap,0.367,0.789,0.594
+dual_ids,0.372,0.539,0.467
+perm_domain,0.322,0.572,0.483
+random,0.267,0.15,0.211

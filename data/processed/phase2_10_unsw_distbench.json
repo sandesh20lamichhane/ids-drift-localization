@@ -1,0 +1,72 @@
+{
+  "generated": "2026-06-05T06:26:14",
+  "dataset": "UNSW-NB15",
+  "drift": "leave-one-attack-family-out",
+  "unsw_file": "/content/drive/MyDrive/phd_thesis/data/processed/unsw_nb15/UNSW_NB15_training-set.parquet",
+  "n_features": 42,
+  "heldout_families": [
+    "Generic",
+    "Exploits",
+    "Fuzzers"
+  ],
+  "models": [
+    "rf",
+    "xgb"
+  ],
+  "seeds": [
+    42,
+    1,
+    7
+  ],
+  "k": 10,
+  "chance": 0.23809523809523808,
+  "margin": 0.05,
+  "auc_anchor": {
+    "aux_shap": 0.4222222222222223,
+    "dual_shap": 0.3222222222222222,
+    "ks": 0.13333333333333336,
+    "perm_dual": 0.3277777777777778,
+    "dual_minus_aux": -0.10000000000000009,
+    "ks_minus_aux": -0.2888888888888889
+  },
+  "method_gt_matrix": {
+    "aux_shap": {
+      "auc": 0.4222222222222223,
+      "oracle_shap": 0.8611111111111112,
+      "oracle_gain": 0.7055555555555555
+    },
+    "dual_shap": {
+      "auc": 0.3222222222222222,
+      "oracle_shap": 0.6222222222222222,
+      "oracle_gain": 0.5166666666666667
+    },
+    "ks": {
+      "auc": 0.13333333333333336,
+      "oracle_shap": 0.31666666666666665,
+      "oracle_gain": 0.30000000000000004
+    },
+    "perm_dual": {
+      "auc": 0.3277777777777778,
+      "oracle_shap": 0.5888888888888889,
+      "oracle_gain": 0.5277777777777778
+    },
+    "random": {
+      "auc": 0.30000000000000004,
+      "oracle_shap": 0.25,
+      "oracle_gain": 0.26111111111111107
+    }
+  },
+  "shap_inflation_vs_oracle": 0.4388888888888889,
+  "self_stability": {
+    "aux_shap": 0.7285677285677284,
+    "dual_shap": 0.7072002072002072,
+    "ks": 0.8484848484848485,
+    "perm_dual": 0.5141155141155141,
+    "random": 0.11263998776898676
+  },
+  "verdict": "SHAP-ADDS-VALUE-ON-UNSW",
+  "cicids_reference": {
+    "ks_vs_aux_gt2": "+0.067 (KS 0.833 > aux 0.766)",
+    "dual_adds": "nothing (07e/07f)"
+  }
+}

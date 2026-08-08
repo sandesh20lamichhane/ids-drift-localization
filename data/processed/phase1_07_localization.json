@@ -1,0 +1,27 @@
+{
+  "generated": "2026-06-04T13:00:33",
+  "seeds": [
+    42,
+    1,
+    7
+  ],
+  "gt_size": 15,
+  "k_primary": 10,
+  "random_expectation": 0.18292682926829268,
+  "post_drift_precision_at_k_gt1": {
+    "dual_gain": 0.6666666666666666,
+    "dual_abs": 0.41111111111111115,
+    "aux_only": 0.711111111111111,
+    "main_only": 0.2666666666666667,
+    "perm_disagree": 0.37777777777777777,
+    "random": 0.17777777777777778
+  },
+  "dual_gain": 0.6666666666666666,
+  "aux_only": 0.711111111111111,
+  "perm_disagree": 0.37777777777777777,
+  "margin_vs_strongest_baseline": -0.0444444444444444,
+  "q007_margin_dual_minus_aux": -0.0444444444444444,
+  "control_day_dual_gain": 0.0,
+  "gt1_gt2_jaccard_postdrift": 0.676470588235294,
+  "d012_verdict": "WEAK"
+}

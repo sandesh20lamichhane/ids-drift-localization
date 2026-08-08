@@ -1,0 +1,88 @@
+{
+  "notebook": "17_ks_trigger",
+  "decision": "D035",
+  "finding": "F023",
+  "generated": "2026-06-12",
+  "seed": 42,
+  "dataset": "CICIDS2017",
+  "window_size": 50000,
+  "train_days": [
+    "monday",
+    "tuesday"
+  ],
+  "stream_days": [
+    "wednesday",
+    "thursday",
+    "friday"
+  ],
+  "splits": {
+    "ref_frac": 0.4,
+    "cal_frac": 0.3,
+    "null_frac": 0.3
+  },
+  "calibration": {
+    "mu": 0.004202275314750346,
+    "sd": 0.002562658089905156,
+    "k": 3.0,
+    "tau": 0.011890249584465815,
+    "null_scores": [
+      0.002968040829106029,
+      0.0032798877893550045,
+      0.0023726839139397923,
+      0.0030994495650253037,
+      0.009291314476325599
+    ]
+  },
+  "K_SIGMA": 3.0,
+  "tau": 0.011890249584465815,
+  "n_windows_total": 34,
+  "n_quiet": 5,
+  "n_drift_windows": 29,
+  "n_fired": 29,
+  "detection_rate": 1.0,
+  "precision": 1.0,
+  "false_alarm_rate_quiet": 0.0,
+  "onsets": {
+    "dos hulk": 5,
+    "dos slowhttptest": 5,
+    "dos slowloris": 5,
+    "dos goldeneye": 8,
+    "heartbleed": 9,
+    "web attack - brute force": 15,
+    "infiltration": 16,
+    "infiltration - portscan": 16,
+    "web attack - sql injection": 17,
+    "web attack - xss": 17,
+    "botnet": 22,
+    "ddos": 23,
+    "portscan": 23
+  },
+  "latencies": {
+    "dos hulk": 0,
+    "dos slowhttptest": 0,
+    "dos slowloris": 0,
+    "dos goldeneye": 0,
+    "heartbleed": 0,
+    "web attack - brute force": 0,
+    "infiltration": 0,
+    "infiltration - portscan": 0,
+    "web attack - sql injection": 0,
+    "web attack - xss": 0,
+    "botnet": 0,
+    "ddos": 0,
+    "portscan": 0
+  },
+  "mean_latency": 0.0,
+  "mean_score_drift": 0.20065094201639871,
+  "mean_score_nodrift": 0.00402012036911405,
+  "gates": {
+    "g1_detection": true,
+    "g2_false_alarm": true,
+    "g3_separation": true,
+    "g4_determinism": true,
+    "L_MAX": 1,
+    "DET_MIN": 0.8,
+    "FA_MAX": 0.1
+  },
+  "verdict": "KS-TRIGGER-VALID"
+}

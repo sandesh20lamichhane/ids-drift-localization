@@ -1,0 +1,156 @@
+{
+  "notebook": "22_corrected_gate_confirm",
+  "decision": "D040",
+  "finding": "F028",
+  "generated": "2026-06-12",
+  "seeds": [
+    42,
+    7,
+    123,
+    2024
+  ],
+  "breadths": [
+    1,
+    2,
+    4
+  ],
+  "corrected_gate": {
+    "HARD_RECALL_MAX": 0.7,
+    "RECOVER_MIN": 0.15,
+    "FLIP_MARGIN": 0.05,
+    "basis": "ceiling (always_sliding) vs frozen"
+  },
+  "original_g2_preserved": {
+    "definition": "triggered_2500 within 0.05 of always_sliding",
+    "pass_count": 1,
+    "n_seeds": 4,
+    "nb21_verdict": "REGIME-DEPENDENCE-NOT-SHOWN (locked)"
+  },
+  "per_seed": {
+    "42": {
+      "hard_breadth": 1,
+      "mild_breadth": 4,
+      "hard_frozen": 0.6301771233057977,
+      "hard_ceiling": 0.9576284002192775,
+      "hard_cheap": 0.8679703597285495,
+      "ben_hard": 0.32745127691347986,
+      "ben_mild": -0.1193539026985202,
+      "orig_g2": false,
+      "g1": true,
+      "g2a": true,
+      "g2b": true,
+      "mono": true,
+      "corrected_pass": true
+    },
+    "7": {
+      "hard_breadth": 1,
+      "mild_breadth": 4,
+      "hard_frozen": 0.6459140658966749,
+      "hard_ceiling": 0.9576945615394794,
+      "hard_cheap": 0.7824521275590254,
+      "ben_hard": 0.3117804956428045,
+      "ben_mild": -0.1172260373343651,
+      "orig_g2": false,
+      "g1": true,
+      "g2a": true,
+      "g2b": true,
+      "mono": true,
+      "corrected_pass": true
+    },
+    "123": {
+      "hard_breadth": 1,
+      "mild_breadth": 4,
+      "hard_frozen": 0.650857261677473,
+      "hard_ceiling": 0.9578174325627115,
+      "hard_cheap": 0.8977618570537419,
+      "ben_hard": 0.3069601708852384,
+      "ben_mild": -0.12036947480413973,
+      "orig_g2": false,
+      "g1": true,
+      "g2a": true,
+      "g2b": true,
+      "mono": true,
+      "corrected_pass": true
+    },
+    "2024": {
+      "hard_breadth": 1,
+      "mild_breadth": 4,
+      "hard_frozen": 0.6422562900512278,
+      "hard_ceiling": 0.9579024971172567,
+      "hard_cheap": 0.9359936485132606,
+      "ben_hard": 0.31564620706602897,
+      "ben_mild": -0.12027275365122347,
+      "orig_g2": true,
+      "g1": true,
+      "g2a": true,
+      "g2b": true,
+      "mono": true,
+      "corrected_pass": true
+    }
+  },
+  "three_regime": [
+    {
+      "regime": "CICIDS catastrophic (nb19 ref)",
+      "breadth": "\u2014",
+      "frozen": 0.0,
+      "ceiling": 0.909,
+      "benefit": 0.909,
+      "interpretation": "recall recovery"
+    },
+    {
+      "regime": "UNSW breadth=1",
+      "breadth": 1,
+      "frozen": 0.642,
+      "ceiling": 0.958,
+      "benefit": 0.316,
+      "interpretation": "recall recovery"
+    },
+    {
+      "regime": "UNSW breadth=2",
+      "breadth": 2,
+      "frozen": 0.689,
+      "ceiling": 0.933,
+      "benefit": 0.244,
+      "interpretation": "recall recovery"
+    },
+    {
+      "regime": "UNSW breadth=4",
+      "breadth": 4,
+      "frozen": 0.981,
+      "ceiling": 0.862,
+      "benefit": -0.119,
+      "interpretation": "FPR reduction (mild)"
+    }
+  ],
+  "selectivity": [
+    {
+      "breadth": 1,
+      "fa_k": 7,
+      "fa_n": 40,
+      "fa_ci": [
+        0.08745302996883066,
+        0.3195029205439244
+      ]
+    },
+    {
+      "breadth": 2,
+      "fa_k": 6,
+      "fa_n": 40,
+      "fa_ci": [
+        0.07061091708507435,
+        0.2907262603902003
+      ]
+    },
+    {
+      "breadth": 4,
+      "fa_k": 10,
+      "fa_n": 40,
+      "fa_ci": [
+        0.14186967895549518,
+        0.40194259066970106
+      ]
+    }
+  ],
+  "verdict": "REGIME-DEPENDENCE-CONFIRMED",
+  "corrected_confirmed": true
+}

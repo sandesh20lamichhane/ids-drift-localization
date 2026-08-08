@@ -1,0 +1,24 @@
+day,attack_category,flows,family
+wed_14_02,FTP-BruteForce,49172,BruteForce
+wed_14_02,SSH-BruteForce,23955,BruteForce
+thu_15_02,DoS GoldenEye,7447,DoS
+thu_15_02,DoS Slowloris,2986,DoS
+fri_16_02,DoS Hulk,366005,DoS
+fri_16_02,FTP-BruteForce,21417,BruteForce
+tue_20_02,DDoS-LOIC-HTTP,71679,DDoS
+tue_20_02,DDoS-LOIC-UDP,217,DDoS
+wed_21_02,DDoS-HOIC,233166,DDoS
+wed_21_02,DDoS-LOIC-UDP,410,DDoS
+thu_22_02,Web Attack - Brute Force,36,Web
+thu_22_02,Web Attack - XSS,11,Web
+thu_22_02,Web Attack - SQL,5,Web
+fri_23_02,Web Attack - Brute Force,31,Web
+fri_23_02,Web Attack - XSS,19,Web
+fri_23_02,Web Attack - SQL,8,Web
+wed_28_02,Infiltration - NMAP Portscan,11358,Infiltration
+wed_28_02,Infiltration - Dropbox Download,14,Infiltration
+wed_28_02,Infiltration - Communication Victim Attacker,10,Infiltration
+thu_01_03,Infiltration - NMAP Portscan,9075,Infiltration
+thu_01_03,Infiltration - Communication Victim Attacker,37,Infiltration
+thu_01_03,Infiltration - Dropbox Download,12,Infiltration
+fri_02_03,Botnet Ares,34030,Bot

@@ -1,0 +1,202 @@
+comparison,bucket,pair_index,diff
+KS vs.\ domain-SHAP (UNSW),GT_in,0,0.2
+KS vs.\ domain-SHAP (UNSW),GT_in,1,0.09999999999999998
+KS vs.\ domain-SHAP (UNSW),GT_in,2,-0.10000000000000003
+KS vs.\ domain-SHAP (UNSW),GT_in,3,0.3
+KS vs.\ domain-SHAP (UNSW),GT_in,4,0.09999999999999998
+KS vs.\ domain-SHAP (UNSW),GT_in,5,-0.10000000000000003
+KS vs.\ domain-SHAP (UNSW),GT_in,6,0.0
+KS vs.\ domain-SHAP (UNSW),GT_in,7,0.09999999999999998
+KS vs.\ domain-SHAP (UNSW),GT_in,8,0.09999999999999998
+KS vs.\ domain-SHAP (UNSW),GT_in,9,0.3
+KS vs.\ domain-SHAP (UNSW),GT_in,10,0.2
+KS vs.\ domain-SHAP (UNSW),GT_in,11,0.0
+KS vs.\ domain-SHAP (UNSW),GT_in,12,-0.10000000000000003
+KS vs.\ domain-SHAP (UNSW),GT_in,13,0.0
+KS vs.\ domain-SHAP (UNSW),GT_in,14,0.0
+KS vs.\ domain-SHAP (UNSW),GT_in,15,-0.2
+KS vs.\ domain-SHAP (UNSW),GT_in,16,0.0
+KS vs.\ domain-SHAP (UNSW),GT_in,17,-0.10000000000000003
+dual-IDS vs.\ domain-SHAP (UNSW),GT_in,0,0.3
+dual-IDS vs.\ domain-SHAP (UNSW),GT_in,1,0.09999999999999998
+dual-IDS vs.\ domain-SHAP (UNSW),GT_in,2,0.0
+dual-IDS vs.\ domain-SHAP (UNSW),GT_in,3,0.2
+dual-IDS vs.\ domain-SHAP (UNSW),GT_in,4,-0.10000000000000003
+dual-IDS vs.\ domain-SHAP (UNSW),GT_in,5,-0.30000000000000004
+dual-IDS vs.\ domain-SHAP (UNSW),GT_in,6,0.0
+dual-IDS vs.\ domain-SHAP (UNSW),GT_in,7,0.09999999999999998
+dual-IDS vs.\ domain-SHAP (UNSW),GT_in,8,0.0
+dual-IDS vs.\ domain-SHAP (UNSW),GT_in,9,0.3
+dual-IDS vs.\ domain-SHAP (UNSW),GT_in,10,0.0
+dual-IDS vs.\ domain-SHAP (UNSW),GT_in,11,-0.2
+dual-IDS vs.\ domain-SHAP (UNSW),GT_in,12,-0.2
+dual-IDS vs.\ domain-SHAP (UNSW),GT_in,13,-0.09999999999999998
+dual-IDS vs.\ domain-SHAP (UNSW),GT_in,14,0.0
+dual-IDS vs.\ domain-SHAP (UNSW),GT_in,15,-0.09999999999999998
+dual-IDS vs.\ domain-SHAP (UNSW),GT_in,16,0.10000000000000003
+dual-IDS vs.\ domain-SHAP (UNSW),GT_in,17,0.0
+dual vs.\ aux (CICIDS),GT_in,0,0.0
+dual vs.\ aux (CICIDS),GT_in,1,0.0
+dual vs.\ aux (CICIDS),GT_in,2,-0.09999999999999998
+dual vs.\ aux (CICIDS),GT_in,3,-0.09999999999999998
+dual vs.\ aux (CICIDS),GT_in,4,0.0
+dual vs.\ aux (CICIDS),GT_in,5,-0.19999999999999996
+dual vs.\ aux (CICIDS),GT_in,6,0.0
+dual vs.\ aux (CICIDS),GT_in,7,0.0
+dual vs.\ aux (CICIDS),GT_in,8,0.0
+KS vs.\ random (UNSW),GT_in,0,0.3
+KS vs.\ random (UNSW),GT_in,1,0.3
+KS vs.\ random (UNSW),GT_in,2,0.0
+KS vs.\ random (UNSW),GT_in,3,0.3
+KS vs.\ random (UNSW),GT_in,4,0.3
+KS vs.\ random (UNSW),GT_in,5,0.0
+KS vs.\ random (UNSW),GT_in,6,0.3
+KS vs.\ random (UNSW),GT_in,7,0.2
+KS vs.\ random (UNSW),GT_in,8,0.09999999999999998
+KS vs.\ random (UNSW),GT_in,9,0.3
+KS vs.\ random (UNSW),GT_in,10,0.2
+KS vs.\ random (UNSW),GT_in,11,0.09999999999999998
+KS vs.\ random (UNSW),GT_in,12,0.0
+KS vs.\ random (UNSW),GT_in,13,0.09999999999999998
+KS vs.\ random (UNSW),GT_in,14,0.0
+KS vs.\ random (UNSW),GT_in,15,0.0
+KS vs.\ random (UNSW),GT_in,16,0.09999999999999998
+KS vs.\ random (UNSW),GT_in,17,0.0
+domain-SHAP vs.\ KS (UNSW),GT_ex,0,0.09999999999999998
+domain-SHAP vs.\ KS (UNSW),GT_ex,1,0.20000000000000007
+domain-SHAP vs.\ KS (UNSW),GT_ex,2,0.09999999999999998
+domain-SHAP vs.\ KS (UNSW),GT_ex,3,0.29999999999999993
+domain-SHAP vs.\ KS (UNSW),GT_ex,4,0.29999999999999993
+domain-SHAP vs.\ KS (UNSW),GT_ex,5,0.29999999999999993
+domain-SHAP vs.\ KS (UNSW),GT_ex,6,0.30000000000000004
+domain-SHAP vs.\ KS (UNSW),GT_ex,7,0.4
+domain-SHAP vs.\ KS (UNSW),GT_ex,8,0.4
+domain-SHAP vs.\ KS (UNSW),GT_ex,9,0.19999999999999996
+domain-SHAP vs.\ KS (UNSW),GT_ex,10,0.09999999999999998
+domain-SHAP vs.\ KS (UNSW),GT_ex,11,0.30000000000000004
+domain-SHAP vs.\ KS (UNSW),GT_ex,12,0.20000000000000007
+domain-SHAP vs.\ KS (UNSW),GT_ex,13,0.09999999999999998
+domain-SHAP vs.\ KS (UNSW),GT_ex,14,0.30000000000000004
+domain-SHAP vs.\ KS (UNSW),GT_ex,15,0.4
+domain-SHAP vs.\ KS (UNSW),GT_ex,16,0.09999999999999998
+domain-SHAP vs.\ KS (UNSW),GT_ex,17,0.0
+"KS vs.\ domain-SHAP (2018, trees)",GT_in,0,0.0
+"KS vs.\ domain-SHAP (2018, trees)",GT_in,1,0.0
+"KS vs.\ domain-SHAP (2018, trees)",GT_in,2,0.09999999999999998
+"KS vs.\ domain-SHAP (2018, trees)",GT_in,3,0.09999999999999998
+"KS vs.\ domain-SHAP (2018, trees)",GT_in,4,0.0
+"KS vs.\ domain-SHAP (2018, trees)",GT_in,5,0.09999999999999998
+"KS vs.\ domain-SHAP (2018, trees)",GT_in,6,-0.09999999999999998
+"KS vs.\ domain-SHAP (2018, trees)",GT_in,7,0.09999999999999998
+"KS vs.\ domain-SHAP (2018, trees)",GT_in,8,0.09999999999999998
+"KS vs.\ domain-SHAP (2018, trees)",GT_in,9,0.2
+"KS vs.\ domain-SHAP (2018, trees)",GT_in,10,0.3
+"KS vs.\ domain-SHAP (2018, trees)",GT_in,11,0.3
+"KS vs.\ domain-SHAP (2018, trees)",GT_in,12,-0.09999999999999998
+"KS vs.\ domain-SHAP (2018, trees)",GT_in,13,0.0
+"KS vs.\ domain-SHAP (2018, trees)",GT_in,14,-0.19999999999999996
+"KS vs.\ domain-SHAP (2018, trees)",GT_in,15,0.2
+"KS vs.\ domain-SHAP (2018, trees)",GT_in,16,0.2
+"KS vs.\ domain-SHAP (2018, trees)",GT_in,17,0.30000000000000004
+"KS vs.\ domain-SHAP (2018, trees)",GT_in,18,0.3
+"KS vs.\ domain-SHAP (2018, trees)",GT_in,19,0.3
+"KS vs.\ domain-SHAP (2018, trees)",GT_in,20,0.19999999999999998
+"KS vs.\ domain-SHAP (2018, trees)",GT_in,21,0.19999999999999998
+"KS vs.\ domain-SHAP (2018, trees)",GT_in,22,0.19999999999999998
+"KS vs.\ domain-SHAP (2018, trees)",GT_in,23,0.3
+dual-IDS vs.\ domain-SHAP (2018),GT_in,0,-0.3
+dual-IDS vs.\ domain-SHAP (2018),GT_in,1,-0.09999999999999998
+dual-IDS vs.\ domain-SHAP (2018),GT_in,2,-0.09999999999999998
+dual-IDS vs.\ domain-SHAP (2018),GT_in,3,-0.09999999999999998
+dual-IDS vs.\ domain-SHAP (2018),GT_in,4,-0.09999999999999998
+dual-IDS vs.\ domain-SHAP (2018),GT_in,5,0.0
+dual-IDS vs.\ domain-SHAP (2018),GT_in,6,-0.2
+dual-IDS vs.\ domain-SHAP (2018),GT_in,7,-0.4
+dual-IDS vs.\ domain-SHAP (2018),GT_in,8,-0.10000000000000003
+dual-IDS vs.\ domain-SHAP (2018),GT_in,9,0.09999999999999998
+dual-IDS vs.\ domain-SHAP (2018),GT_in,10,-0.20000000000000007
+dual-IDS vs.\ domain-SHAP (2018),GT_in,11,0.0
+dual-IDS vs.\ domain-SHAP (2018),GT_in,12,-0.09999999999999998
+dual-IDS vs.\ domain-SHAP (2018),GT_in,13,0.09999999999999998
+dual-IDS vs.\ domain-SHAP (2018),GT_in,14,0.09999999999999998
+dual-IDS vs.\ domain-SHAP (2018),GT_in,15,-0.09999999999999998
+dual-IDS vs.\ domain-SHAP (2018),GT_in,16,0.09999999999999998
+dual-IDS vs.\ domain-SHAP (2018),GT_in,17,0.0
+dual-IDS vs.\ domain-SHAP (2018),GT_in,18,-0.20000000000000007
+dual-IDS vs.\ domain-SHAP (2018),GT_in,19,-0.09999999999999998
+dual-IDS vs.\ domain-SHAP (2018),GT_in,20,0.19999999999999996
+dual-IDS vs.\ domain-SHAP (2018),GT_in,21,0.0
+dual-IDS vs.\ domain-SHAP (2018),GT_in,22,0.09999999999999998
+dual-IDS vs.\ domain-SHAP (2018),GT_in,23,-0.09999999999999998
+dual-IDS vs.\ domain-SHAP (2018),GT_in,24,0.0
+dual-IDS vs.\ domain-SHAP (2018),GT_in,25,-0.1
+dual-IDS vs.\ domain-SHAP (2018),GT_in,26,0.19999999999999998
+dual-IDS vs.\ domain-SHAP (2018),GT_in,27,-0.10000000000000003
+dual-IDS vs.\ domain-SHAP (2018),GT_in,28,0.0
+dual-IDS vs.\ domain-SHAP (2018),GT_in,29,0.09999999999999998
+dual-IDS vs.\ domain-SHAP (2018),GT_in,30,0.1
+dual-IDS vs.\ domain-SHAP (2018),GT_in,31,0.1
+dual-IDS vs.\ domain-SHAP (2018),GT_in,32,0.1
+dual-IDS vs.\ domain-SHAP (2018),GT_in,33,0.1
+dual-IDS vs.\ domain-SHAP (2018),GT_in,34,-0.1
+dual-IDS vs.\ domain-SHAP (2018),GT_in,35,0.0
+"KS vs.\ random (2018, trees)",GT_in,0,0.5
+"KS vs.\ random (2018, trees)",GT_in,1,0.4
+"KS vs.\ random (2018, trees)",GT_in,2,0.5
+"KS vs.\ random (2018, trees)",GT_in,3,0.5
+"KS vs.\ random (2018, trees)",GT_in,4,0.4
+"KS vs.\ random (2018, trees)",GT_in,5,0.5
+"KS vs.\ random (2018, trees)",GT_in,6,0.5
+"KS vs.\ random (2018, trees)",GT_in,7,0.3
+"KS vs.\ random (2018, trees)",GT_in,8,0.4
+"KS vs.\ random (2018, trees)",GT_in,9,0.5
+"KS vs.\ random (2018, trees)",GT_in,10,0.3
+"KS vs.\ random (2018, trees)",GT_in,11,0.4
+"KS vs.\ random (2018, trees)",GT_in,12,0.30000000000000004
+"KS vs.\ random (2018, trees)",GT_in,13,0.2
+"KS vs.\ random (2018, trees)",GT_in,14,0.30000000000000004
+"KS vs.\ random (2018, trees)",GT_in,15,0.30000000000000004
+"KS vs.\ random (2018, trees)",GT_in,16,0.2
+"KS vs.\ random (2018, trees)",GT_in,17,0.30000000000000004
+"KS vs.\ random (2018, trees)",GT_in,18,0.19999999999999998
+"KS vs.\ random (2018, trees)",GT_in,19,0.3
+"KS vs.\ random (2018, trees)",GT_in,20,0.3
+"KS vs.\ random (2018, trees)",GT_in,21,0.19999999999999998
+"KS vs.\ random (2018, trees)",GT_in,22,0.3
+"KS vs.\ random (2018, trees)",GT_in,23,0.3
+domain-SHAP (MLP) vs.\ KS (2018),GT_in,0,0.09999999999999998
+domain-SHAP (MLP) vs.\ KS (2018),GT_in,1,0.09999999999999998
+domain-SHAP (MLP) vs.\ KS (2018),GT_in,2,0.09999999999999998
+domain-SHAP (MLP) vs.\ KS (2018),GT_in,3,0.09999999999999998
+domain-SHAP (MLP) vs.\ KS (2018),GT_in,4,0.30000000000000004
+domain-SHAP (MLP) vs.\ KS (2018),GT_in,5,0.09999999999999998
+domain-SHAP (MLP) vs.\ KS (2018),GT_in,6,0.4
+domain-SHAP (MLP) vs.\ KS (2018),GT_in,7,0.19999999999999996
+domain-SHAP (MLP) vs.\ KS (2018),GT_in,8,0.09999999999999998
+domain-SHAP (MLP) vs.\ KS (2018),GT_in,9,0.10000000000000003
+domain-SHAP (MLP) vs.\ KS (2018),GT_in,10,0.0
+domain-SHAP (MLP) vs.\ KS (2018),GT_in,11,-0.09999999999999998
+"domain-SHAP vs.\ KS (2018, trees)",GT_ex,0,0.20000000000000007
+"domain-SHAP vs.\ KS (2018, trees)",GT_ex,1,0.10000000000000009
+"domain-SHAP vs.\ KS (2018, trees)",GT_ex,2,0.20000000000000007
+"domain-SHAP vs.\ KS (2018, trees)",GT_ex,3,0.0
+"domain-SHAP vs.\ KS (2018, trees)",GT_ex,4,0.0
+"domain-SHAP vs.\ KS (2018, trees)",GT_ex,5,0.09999999999999998
+"domain-SHAP vs.\ KS (2018, trees)",GT_ex,6,0.20000000000000007
+"domain-SHAP vs.\ KS (2018, trees)",GT_ex,7,0.0
+"domain-SHAP vs.\ KS (2018, trees)",GT_ex,8,0.20000000000000007
+"domain-SHAP vs.\ KS (2018, trees)",GT_ex,9,0.6000000000000001
+"domain-SHAP vs.\ KS (2018, trees)",GT_ex,10,0.39999999999999997
+"domain-SHAP vs.\ KS (2018, trees)",GT_ex,11,0.19999999999999996
+"domain-SHAP vs.\ KS (2018, trees)",GT_ex,12,0.0
+"domain-SHAP vs.\ KS (2018, trees)",GT_ex,13,0.0
+"domain-SHAP vs.\ KS (2018, trees)",GT_ex,14,0.0
+"domain-SHAP vs.\ KS (2018, trees)",GT_ex,15,0.5
+"domain-SHAP vs.\ KS (2018, trees)",GT_ex,16,0.39999999999999997
+"domain-SHAP vs.\ KS (2018, trees)",GT_ex,17,0.39999999999999997
+"domain-SHAP vs.\ KS (2018, trees)",GT_ex,18,0.19999999999999996
+"domain-SHAP vs.\ KS (2018, trees)",GT_ex,19,0.19999999999999996
+"domain-SHAP vs.\ KS (2018, trees)",GT_ex,20,0.4
+"domain-SHAP vs.\ KS (2018, trees)",GT_ex,21,0.39999999999999997
+"domain-SHAP vs.\ KS (2018, trees)",GT_ex,22,0.3
+"domain-SHAP vs.\ KS (2018, trees)",GT_ex,23,0.29999999999999993

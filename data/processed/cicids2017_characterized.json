@@ -1,0 +1,115 @@
+{
+  "generated": "2026-06-04T12:23:37",
+  "dataset": "cicids2017_improved (Engelen et al. 2021)",
+  "per_day_class": [
+    {
+      "day": "monday",
+      "total_rows": 371621,
+      "benign": 371621,
+      "attack": 0,
+      "attack_rate": 0.0,
+      "attempted_flag_count": 0,
+      "unique_attack_categories": 1
+    },
+    {
+      "day": "tuesday",
+      "total_rows": 322078,
+      "benign": 315106,
+      "attack": 6972,
+      "attack_rate": 0.021646930246710425,
+      "attempted_flag_count": 39,
+      "unique_attack_categories": 3
+    },
+    {
+      "day": "wednesday",
+      "total_rows": 496640,
+      "benign": 319119,
+      "attack": 177521,
+      "attack_rate": 0.3574440238402062,
+      "attempted_flag_count": 5876,
+      "unique_attack_categories": 6
+    },
+    {
+      "day": "thursday",
+      "total_rows": 362075,
+      "benign": 288171,
+      "attack": 73904,
+      "attack_rate": 0.2041124076503487,
+      "attempted_flag_count": 1997,
+      "unique_attack_categories": 6
+    },
+    {
+      "day": "friday",
+      "total_rows": 547557,
+      "benign": 288544,
+      "attack": 259013,
+      "attack_rate": 0.4730338576623073,
+      "attempted_flag_count": 4067,
+      "unique_attack_categories": 4
+    }
+  ],
+  "ks_drift": {
+    "subsample_size": 50000,
+    "top_10_drifted": [
+      "fwd_packet_length_max",
+      "total_length_of_fwd_packet",
+      "packet_length_max",
+      "packet_length_std",
+      "packet_length_variance",
+      "bwd_packet_length_max",
+      "packet_length_mean",
+      "average_packet_size",
+      "bwd_packet_length_mean",
+      "bwd_segment_size_avg"
+    ],
+    "bottom_10_drifted": [
+      "fwd_bytes_bulk_avg",
+      "fwd_packet_bulk_avg",
+      "cwr_flag_count",
+      "ece_flag_count",
+      "urg_flag_count",
+      "fwd_urg_flags",
+      "icmp_code",
+      "icmp_type",
+      "bwd_urg_flags",
+      "subflow_bwd_packets"
+    ],
+    "features_with_mean_ks_above_0_3": 0,
+    "features_with_mean_ks_above_0_1": 57
+  },
+  "low_variance": {
+    "constant_features": [],
+    "near_constant_features_count": 8
+  },
+  "cross_day_duplicates_sampled": 402,
+  "compute_budget": {
+    "rf_fit_seconds": 180.4428699016571,
+    "shap_timing": [
+      {
+        "n_samples": 100,
+        "seconds": 0.8624606132507324,
+        "sec_per_1k": 8.624606132507324
+      },
+      {
+        "n_samples": 500,
+        "seconds": 3.734016180038452,
+        "sec_per_1k": 7.468032360076904
+      },
+      {
+        "n_samples": 1000,
+        "seconds": 5.66125226020813,
+        "sec_per_1k": 5.66125226020813
+      },
+      {
+        "n_samples": 2000,
+        "seconds": 12.870111465454102,
+        "sec_per_1k": 6.435055732727051
+      },
+      {
+        "n_samples": 5000,
+        "seconds": 31.347155332565308,
+        "sec_per_1k": 6.269431066513062
+      }
+    ]
+  }
+}

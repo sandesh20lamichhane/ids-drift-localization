@@ -1,0 +1,5 @@
+regime,breadth,frozen,ceiling,benefit,interpretation
+CICIDS catastrophic (nb19 ref),—,0.0,0.909,0.909,recall recovery
+UNSW breadth=1,1,0.642,0.958,0.316,recall recovery
+UNSW breadth=2,2,0.689,0.933,0.244,recall recovery
+UNSW breadth=4,4,0.981,0.862,-0.119,FPR reduction (mild)

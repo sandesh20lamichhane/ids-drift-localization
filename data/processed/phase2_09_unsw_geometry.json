@@ -1,0 +1,89 @@
+{
+  "generated": "2026-06-05T05:50:53",
+  "dataset": "UNSW-NB15",
+  "unsw_file": "/content/drive/MyDrive/phd_thesis/data/processed/unsw_nb15/UNSW_NB15_training-set.parquet",
+  "n_features": 42,
+  "seeds": [
+    42,
+    1,
+    7
+  ],
+  "rel_size": 5,
+  "chance": 0.11904761904761904,
+  "models": [
+    "rf",
+    "xgb"
+  ],
+  "geometry": {
+    "median_redundancy": 0.9025416701689906,
+    "non_degenerate": 29,
+    "nd_below_decorr": 0,
+    "modal_max": 0.9,
+    "min_distinct": 20
+  },
+  "levels": [
+    {
+      "quantile": 0.05,
+      "leakage": 0.4435052206617339,
+      "rf_shap": 0.4666666666666666,
+      "xgb_shap": 0.6,
+      "ks": 0.26666666666666666,
+      "rf_recall": 0.9919444444444444,
+      "xgb_recall": 0.9938888888888888
+    },
+    {
+      "quantile": 0.35,
+      "leakage": 0.8180814545906203,
+      "rf_shap": 0.6,
+      "xgb_shap": 0.7333333333333334,
+      "ks": 0.06666666666666667,
+      "rf_recall": 0.9777526521496371,
+      "xgb_recall": 0.993322166387493
+    },
+    {
+      "quantile": 0.65,
+      "leakage": 0.9437288870123476,
+      "rf_shap": 0.5333333333333333,
+      "xgb_shap": 0.6666666666666666,
+      "ks": 0.26666666666666666,
+      "rf_recall": 0.9730527731404193,
+      "xgb_recall": 0.9958291597106289
+    },
+    {
+      "quantile": 0.95,
+      "leakage": 0.9846072397745111,
+      "rf_shap": 0.39999999999999997,
+      "xgb_shap": 0.7333333333333334,
+      "ks": 0.06666666666666667,
+      "rf_recall": 0.9899832495812396,
+      "xgb_recall": 0.9974972082635398
+    }
+  ],
+  "min_leakage": 0.4435052206617339,
+  "reached": false,
+  "per_model": {
+    "rf": {
+      "low_recall": 0.9919444444444444,
+      "low_valid": 1.0,
+      "low_shap": 0.4666666666666666,
+      "trend": 0.06666666666666665,
+      "recovers": 0.0
+    },
+    "xgb": {
+      "low_recall": 0.9938888888888888,
+      "low_valid": 1.0,
+      "low_shap": 0.6,
+      "trend": -0.13333333333333341,
+      "recovers": 1.0
+    }
+  },
+  "verdict": "CROSS-DATASET-BLOCK",
+  "cicids_reference": {
+    "name": "CICIDS2017",
+    "n_features": 82,
+    "median_redundancy": 0.95,
+    "nondegen": 63,
+    "leakage_floor": 0.248,
+    "reached": false
+  }
+}

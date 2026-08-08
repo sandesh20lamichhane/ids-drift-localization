@@ -1,0 +1,7 @@
+family,total_flows,underpowered
+DoS,376438,False
+DDoS,305472,False
+BruteForce,94544,False
+Bot,34030,False
+Infiltration,20506,False
+Web,110,True

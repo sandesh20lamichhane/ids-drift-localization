@@ -1,0 +1,9 @@
+feature,top_value_pct
+bwd_urg_flags,0.9999995238029478
+subflow_bwd_packets,0.9999842854972759
+fwd_urg_flags,0.9999557136741413
+urg_flag_count,0.9999552374770889
+icmp_type,0.9997128531774963
+icmp_code,0.9997128531774963
+ece_flag_count,0.99967332882216
+cwr_flag_count,0.9996361854520848

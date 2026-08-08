@@ -1,0 +1,80 @@
+{
+  "generated": "2026-06-09T04:42:48",
+  "dataset": "UNSW-NB15",
+  "drift": "additive leave-one-family-out (inject H at P)",
+  "inject_p": 0.5,
+  "unsw_file": "/content/drive/MyDrive/phd_thesis/data/processed/unsw_nb15/UNSW_NB15_training-set.parquet",
+  "n_features": 42,
+  "heldout_families": [
+    "Generic",
+    "Exploits",
+    "Fuzzers"
+  ],
+  "models": [
+    "rf",
+    "xgb",
+    "mlp"
+  ],
+  "seeds": [
+    42,
+    1,
+    7
+  ],
+  "k": 10,
+  "chance": 0.23809523809523808,
+  "margin": 0.05,
+  "gts": [
+    "wasserstein",
+    "domain_oracle_shap"
+  ],
+  "by_model": {
+    "rf": {
+      "ks": 0.41111111111111115,
+      "domain_shap": 0.37777777777777777,
+      "dual_ids": 0.4,
+      "perm_domain": 0.3333333333333333,
+      "random": 0.26666666666666666,
+      "ks_minus_dom": 0.03333333333333338,
+      "dual_minus_dom": 0.022222222222222254,
+      "circularity": 0.48888888888888893,
+      "domain_shap_stability": 0.7197617197617198,
+      "perm_domain_stability": 0.29429920116194624
+    },
+    "xgb": {
+      "ks": 0.41111111111111115,
+      "domain_shap": 0.35555555555555557,
+      "dual_ids": 0.3444444444444444,
+      "perm_domain": 0.3111111111111111,
+      "random": 0.26666666666666666,
+      "ks_minus_dom": 0.05555555555555558,
+      "dual_minus_dom": -0.011111111111111183,
+      "circularity": 0.35555555555555546,
+      "domain_shap_stability": 0.518111518111518,
+      "perm_domain_stability": 0.3511396011396011
+    },
+    "mlp": {
+      "ks": 0.41111111111111115,
+      "domain_shap": 0.5888888888888888,
+      "dual_ids": 0.5111111111111112,
+      "perm_domain": 0.4222222222222222,
+      "random": 0.26666666666666666,
+      "ks_minus_dom": -0.17777777777777765,
+      "dual_minus_dom": -0.07777777777777761,
+      "circularity": 0.0888888888888889,
+      "domain_shap_stability": 0.5422725422725422,
+      "perm_domain_stability": 0.3905168905168905
+    }
+  },
+  "mlp_gate": {
+    "ks": 0.41111111111111115,
+    "domain_shap": 0.5888888888888888,
+    "dual_ids": 0.5111111111111112,
+    "ks_minus_domainshap": -0.17777777777777765,
+    "dual_minus_domainshap": -0.07777777777777761,
+    "circularity": 0.0888888888888889,
+    "domain_shap_stability": 0.5422725422725422,
+    "perm_domain_stability": 0.3905168905168905
+  },
+  "verdict": "EXPLANATION-ADDS-VALUE-NEURAL",
+  "mirrors": "notebook 10b / D027 / F015 (RF+XGB), adds MLP"
+}

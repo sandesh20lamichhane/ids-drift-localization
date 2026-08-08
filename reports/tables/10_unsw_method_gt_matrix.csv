@@ -1,0 +1,6 @@
+,auc,oracle_shap,oracle_gain
+aux_shap,0.422,0.861,0.706
+dual_shap,0.322,0.622,0.517
+ks,0.133,0.317,0.3
+perm_dual,0.328,0.589,0.528
+random,0.3,0.25,0.261

@@ -1,0 +1,35 @@
+{
+  "generated": "2026-06-04T17:09:35",
+  "seeds": [
+    42,
+    1,
+    7
+  ],
+  "gt_size": 15,
+  "k_primary": 10,
+  "drift_delta": 1.5,
+  "chance": 0.18292682926829268,
+  "distributional": {
+    "ks": 1.0,
+    "aux_shap": 0.20000000000000004
+  },
+  "concept": {
+    "ks": 0.26666666666666666,
+    "aux_shap": 0.26666666666666666
+  },
+  "diagnostics": {
+    "balance_post": {
+      "concept": 0.5,
+      "distributional": 0.5
+    },
+    "aux_recall": {
+      "concept": 0.981,
+      "distributional": 0.987
+    },
+    "ks_max": {
+      "concept": 0.017,
+      "distributional": 1.0
+    }
+  },
+  "verdict": "H1-REFUTED-CONCEPT"
+}

@@ -1,0 +1,144 @@
+{
+  "generated": "2026-07-07T18:11:25",
+  "purpose": "reproduce paper Table tab:sig (paired significance) from released raw tables",
+  "seed": 42,
+  "n_boot": 10000,
+  "k": 10,
+  "pairing": {
+    "unsw": "family x model x seed (n=18)",
+    "cicids": "day x seed, post-drift only (n=9)",
+    "cse2018_trees": "family x model x seed (n=24)",
+    "cse2018_all": "family x model x seed (n=36)",
+    "cse2018_mlp": "family x seed (n=12)"
+  },
+  "post_drift_days_cicids": [
+    "friday",
+    "thursday",
+    "wednesday"
+  ],
+  "gt_in_unsw": "wasserstein",
+  "gt_ex_unsw": "domain_oracle_shap",
+  "cicids_gt": "GT1",
+  "rows": [
+    {
+      "comparison": "KS vs.\\ domain-SHAP (UNSW)",
+      "bucket": "GT_in",
+      "circular": false,
+      "n": 18,
+      "delta": 0.044444444444444425,
+      "ci_lo": -0.016666666666666684,
+      "ci_hi": 0.1111111111111111,
+      "p": 0.5034706193565313,
+      "dz": 0.31223555118935964,
+      "significant": false
+    },
+    {
+      "comparison": "dual-IDS vs.\\ domain-SHAP (UNSW)",
+      "bucket": "GT_in",
+      "circular": false,
+      "n": 18,
+      "delta": 0.005555555555555551,
+      "ci_lo": -0.06666666666666668,
+      "ci_hi": 0.08333333333333331,
+      "p": 0.9685181812691614,
+      "dz": 0.03416755855207824,
+      "significant": false
+    },
+    {
+      "comparison": "dual vs.\\ aux (CICIDS)",
+      "bucket": "GT_in",
+      "circular": false,
+      "n": 9,
+      "delta": -0.04444444444444443,
+      "ci_lo": -0.08888888888888886,
+      "ci_hi": -0.011111111111111108,
+      "p": 0.25,
+      "dz": -0.6117752903214979,
+      "significant": false
+    },
+    {
+      "comparison": "KS vs.\\ random (UNSW)",
+      "bucket": "GT_in",
+      "circular": false,
+      "n": 18,
+      "delta": 0.14444444444444446,
+      "ci_lo": 0.08888888888888886,
+      "ci_hi": 0.2,
+      "p": 0.00183932469938724,
+      "dz": 1.1166744402714497,
+      "significant": true
+    },
+    {
+      "comparison": "domain-SHAP vs.\\ KS (UNSW)",
+      "bucket": "GT_ex",
+      "circular": true,
+      "n": 18,
+      "delta": 0.22777777777777775,
+      "ci_lo": 0.17222222222222222,
+      "ci_hi": 0.2833333333333333,
+      "p": 0.00027452939459761855,
+      "dz": 1.8557591141125924,
+      "significant": true
+    },
+    {
+      "comparison": "KS vs.\\ domain-SHAP (2018, trees)",
+      "bucket": "GT_in",
+      "circular": false,
+      "n": 24,
+      "delta": 0.12916666666666668,
+      "ci_lo": 0.07083333333333333,
+      "ci_hi": 0.18333333333333335,
+      "p": 0.0008163538569731475,
+      "dz": 0.8853215948123795,
+      "significant": true
+    },
+    {
+      "comparison": "dual-IDS vs.\\ domain-SHAP (2018)",
+      "bucket": "GT_in",
+      "circular": false,
+      "n": 36,
+      "delta": -0.030555555555555558,
+      "ci_lo": -0.07500000000000001,
+      "ci_hi": 0.011111111111111108,
+      "p": 0.22332915741971948,
+      "dz": -0.22660156886520721,
+      "significant": false
+    },
+    {
+      "comparison": "KS vs.\\ random (2018, trees)",
+      "bucket": "GT_in",
+      "circular": false,
+      "n": 24,
+      "delta": 0.35000000000000003,
+      "ci_lo": 0.30833333333333335,
+      "ci_hi": 0.39166666666666666,
+      "p": 1.6625284102612557e-05,
+      "dz": 3.2918898009408615,
+      "significant": true
+    },
+    {
+      "comparison": "domain-SHAP (MLP) vs.\\ KS (2018)",
+      "bucket": "GT_in",
+      "circular": false,
+      "n": 12,
+      "delta": 0.125,
+      "ci_lo": 0.05833333333333332,
+      "ci_hi": 0.19166666666666668,
+      "p": 0.0078125,
+      "dz": 0.970453925705805,
+      "significant": true
+    },
+    {
+      "comparison": "domain-SHAP vs.\\ KS (2018, trees)",
+      "bucket": "GT_ex",
+      "circular": true,
+      "n": 24,
+      "delta": 0.22083333333333333,
+      "ci_lo": 0.15416666666666665,
+      "ci_hi": 0.2916666666666667,
+      "p": 0.00018831717940617367,
+      "dz": 1.248498422560816,
+      "significant": true
+    }
+  ]
+}

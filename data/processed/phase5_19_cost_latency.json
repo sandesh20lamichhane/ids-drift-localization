@@ -1,0 +1,99 @@
+{
+  "notebook": "19_cost_latency",
+  "decision": "D037",
+  "finding": "F025",
+  "generated": "2026-06-12",
+  "seed": 42,
+  "dataset": "CICIDS2017",
+  "window_size": 50000,
+  "n_windows": 29,
+  "total_flows": 1406272,
+  "tau": 0.0036139383858564567,
+  "budget_grid": [
+    250,
+    2500,
+    25000
+  ],
+  "run_cumulative": false,
+  "reference_policy": "always_sliding",
+  "nb18_cumulative_recall_ceiling": 0.8458871022394585,
+  "accounting": [
+    {
+      "policy": "never",
+      "recall": 0.0,
+      "precision": NaN,
+      "fpr": 0.0,
+      "f1": NaN,
+      "alert_volume_fp": 0,
+      "label_cost": 0,
+      "compute_s": 0.0,
+      "n_retrains": 0
+    },
+    {
+      "policy": "triggered_250",
+      "recall": 0.9129766984432978,
+      "precision": 0.9848453789077937,
+      "fpr": 0.008004831252218602,
+      "f1": 0.9475502400808438,
+      "alert_volume_fp": 7171,
+      "label_cost": 6750,
+      "compute_s": 6.9,
+      "n_retrains": 27
+    },
+    {
+      "policy": "triggered_2500",
+      "recall": 0.9162092163984656,
+      "precision": 0.98758518161872,
+      "fpr": 0.006562599767367615,
+      "f1": 0.9505592056789484,
+      "alert_volume_fp": 5879,
+      "label_cost": 67500,
+      "compute_s": 38.6,
+      "n_retrains": 27
+    },
+    {
+      "policy": "periodic",
+      "recall": 0.5945658434520941,
+      "precision": 0.9758269106483134,
+      "fpr": 0.00839217980116852,
+      "f1": 0.7389149608312181,
+      "alert_volume_fp": 7518,
+      "label_cost": 450000,
+      "compute_s": 11.5,
+      "n_retrains": 9
+    },
+    {
+      "policy": "triggered_25000",
+      "recall": 0.9172906405871036,
+      "precision": 0.9901999348636155,
+      "fpr": 0.005172833359751918,
+      "f1": 0.9523518954695045,
+      "alert_volume_fp": 4634,
+      "label_cost": 656272,
+      "compute_s": 580.3,
+      "n_retrains": 27
+    },
+    {
+      "policy": "always_sliding",
+      "recall": 0.9090095173165007,
+      "precision": 0.9962703712451421,
+      "fpr": 0.0019389753012276829,
+      "f1": 0.9506416928233665,
+      "alert_volume_fp": 1737,
+      "label_cost": 1400000,
+      "compute_s": 36.0,
+      "n_retrains": 28
+    }
+  ],
+  "headline": "triggered_250: recall 0.913, FPR 0.0080 (7,171 alerts), 6,750 labels, 7s compute \u2014 vs always_sliding recall 0.909, FPR 0.0019, 1,400,000 labels, 36s (labels 0.48%, compute 19.23%).",
+  "gates": {
+    "g1_fp": true,
+    "g2_compute": true,
+    "g3_joint": true,
+    "g4_determinism": true,
+    "FPR_MARGIN": 0.05,
+    "RECALL_MARGIN": 0.05,
+    "COST_FRAC_MAX": 0.5
+  },
+  "verdict": "COST-ACCOUNTING-VALID"
+}

@@ -1,0 +1,58 @@
+{
+  "generated": "2026-06-04T12:36:38",
+  "seed": 42,
+  "runtime": "CPU + High-RAM (no GPU)",
+  "rf_hyperparameters": {
+    "n_estimators": 100,
+    "max_depth": 12,
+    "n_jobs": -1,
+    "random_state": 42
+  },
+  "training_times_seconds": {
+    "cold_start": 13.985405206680298,
+    "cold_start_balanced": 14.849924087524414,
+    "cold_start_downsampled": 0.9951333999633789,
+    "realistic": 24.669256925582886,
+    "oracle": 53.434842348098755
+  },
+  "summary_across_attack_days": {
+    "cold_start": {
+      "mean_recall": 0.24533849684452094,
+      "min_recall": 0.0,
+      "max_recall": 0.9813539873780838,
+      "mean_fpr": 0.0,
+      "mean_pr_auc": 0.576473075354227
+    },
+    "cold_start_balanced": {
+      "mean_recall": 0.2460197934595525,
+      "min_recall": 0.0,
+      "max_recall": 0.98407917383821,
+      "mean_fpr": 0.0,
+      "mean_pr_auc": 0.513457746115132
+    },
+    "cold_start_downsampled": {
+      "mean_recall": 0.2459480780263913,
+      "min_recall": 0.0,
+      "max_recall": 0.9837923121055652,
+      "mean_fpr": 0.0,
+      "mean_pr_auc": 0.6004657296762788
+    },
+    "realistic": {
+      "mean_recall": 0.24852983362019507,
+      "min_recall": 0.0,
+      "max_recall": 0.9941193344807803,
+      "mean_fpr": 0.0,
+      "mean_pr_auc": 0.6701301025202269
+    },
+    "oracle": {
+      "mean_recall": 0.9936989481420678,
+      "min_recall": 0.9896729776247849,
+      "max_recall": 0.9964557763509939,
+      "mean_fpr": 0.00019295153539366356,
+      "mean_pr_auc": 0.9996376595161057
+    }
+  },
+  "imbalance_recovery": 0.0006812966150315514,
+  "headroom_oracle_vs_coldstart": 0.7483604512975469,
+  "D015_finding": "drift-dominant"
+}

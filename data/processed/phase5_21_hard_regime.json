@@ -1,0 +1,192 @@
+{
+  "notebook": "21_unsw_hard_regime",
+  "decision": "D039",
+  "finding": "F027",
+  "generated": "2026-06-12",
+  "seed": 42,
+  "breadths": [
+    1,
+    2,
+    4
+  ],
+  "window_size": 5000,
+  "quiet_windows": 10,
+  "hardest": {
+    "breadth": 1,
+    "seen": [
+      "generic"
+    ],
+    "never_recall": 0.6301771233057977,
+    "triggered2500_recall": 0.8679703597285495,
+    "always_sliding_recall": 0.9576284002192775
+  },
+  "mild_selectivity": {
+    "breadth": 4,
+    "fa_k": 2,
+    "fa_n": 10,
+    "fa_ci": [
+      0.056680947980693314,
+      0.5098431532792765
+    ]
+  },
+  "per_regime": [
+    {
+      "breadth": 1,
+      "seen": [
+        "generic"
+      ],
+      "novel": [
+        "exploits",
+        "fuzzers",
+        "dos",
+        "reconnaissance",
+        "analysis",
+        "backdoor",
+        "shellcode",
+        "worms"
+      ],
+      "recall": {
+        "never": 0.6301771233057977,
+        "always_sliding": 0.9576284002192775,
+        "triggered_250": 0.8522239655205005,
+        "triggered_2500": 0.8679703597285495,
+        "always_cheap_250": 0.8616188729891684
+      },
+      "fpr": {
+        "never": 0.0025,
+        "always_sliding": 0.24705555555555556,
+        "triggered_250": 0.09394444444444444,
+        "triggered_2500": 0.05377777777777778,
+        "always_cheap_250": 0.06861111111111111
+      },
+      "fa_k": 1,
+      "fa_n": 10,
+      "fa_ci": [
+        0.01787574951572113,
+        0.4041563854975721
+      ],
+      "triggered250_labels": 500,
+      "alwayscheap250_labels": 8750
+    },
+    {
+      "breadth": 2,
+      "seen": [
+        "generic",
+        "exploits"
+      ],
+      "novel": [
+        "fuzzers",
+        "dos",
+        "reconnaissance",
+        "analysis",
+        "backdoor",
+        "shellcode",
+        "worms"
+      ],
+      "recall": {
+        "never": 0.6911891900713155,
+        "always_sliding": 0.9334171059288151,
+        "triggered_250": 0.8890285098813584,
+        "triggered_2500": 0.913589111738499,
+        "always_cheap_250": 0.7837035102893418
+      },
+      "fpr": {
+        "never": 0.03166666666666667,
+        "always_sliding": 0.21816666666666668,
+        "triggered_250": 0.15633333333333332,
+        "triggered_2500": 0.13816666666666666,
+        "always_cheap_250": 0.059333333333333335
+      },
+      "fa_k": 1,
+      "fa_n": 10,
+      "fa_ci": [
+        0.01787574951572113,
+        0.4041563854975721
+      ],
+      "triggered250_labels": 2000,
+      "alwayscheap250_labels": 6500
+    },
+    {
+      "breadth": 4,
+      "seen": [
+        "generic",
+        "exploits",
+        "fuzzers",
+        "dos"
+      ],
+      "novel": [
+        "reconnaissance",
+        "analysis",
+        "backdoor",
+        "shellcode",
+        "worms"
+      ],
+      "recall": {
+        "never": 0.9838475674630042,
+        "always_sliding": 0.864493664764484,
+        "triggered_250": 0.8167617758003676,
+        "triggered_2500": 0.8416674726762743,
+        "always_cheap_250": 0.7968372182996422
+      },
+      "fpr": {
+        "never": 0.17677777777777778,
+        "always_sliding": 0.02266666666666667,
+        "triggered_250": 0.013555555555555555,
+        "triggered_2500": 0.006888888888888889,
+        "always_cheap_250": 0.005333333333333333
+      },
+      "fa_k": 2,
+      "fa_n": 10,
+      "fa_ci": [
+        0.056680947980693314,
+        0.5098431532792765
+      ],
+      "triggered250_labels": 1750,
+      "alwayscheap250_labels": 4500
+    }
+  ],
+  "three_regime_table": [
+    {
+      "regime": "CICIDS catastrophic (nb19 ref)",
+      "breadth": "\u2014",
+      "frozen_recall": 0.0,
+      "triggered2500_recall": 0.913,
+      "always_sliding_recall": 0.909,
+      "interpretation": "recall recovery"
+    },
+    {
+      "regime": "UNSW breadth=1 (generic)",
+      "breadth": 1,
+      "frozen_recall": 0.63,
+      "triggered2500_recall": 0.868,
+      "always_sliding_recall": 0.958,
+      "interpretation": "recall recovery"
+    },
+    {
+      "regime": "UNSW breadth=2 (generic+exploits)",
+      "breadth": 2,
+      "frozen_recall": 0.691,
+      "triggered2500_recall": 0.914,
+      "always_sliding_recall": 0.933,
+      "interpretation": "recall recovery"
+    },
+    {
+      "regime": "UNSW breadth=4 (generic+exploits+fuzzers+dos)",
+      "breadth": 4,
+      "frozen_recall": 0.984,
+      "triggered2500_recall": 0.842,
+      "always_sliding_recall": 0.864,
+      "interpretation": "FPR reduction (mild)"
+    }
+  ],
+  "gates": {
+    "g1_hard_exists": true,
+    "g2_recovery": false,
+    "g3_selectivity_flag": true,
+    "g4_determinism": true,
+    "HARD_RECALL_MAX": 0.7,
+    "RECOVER_MARGIN": 0.05,
+    "FA_CI_MAX": 0.2
+  },
+  "verdict": "REGIME-DEPENDENCE-NOT-SHOWN"
+}

@@ -1,0 +1,59 @@
+{
+  "notebook": "16_stream_harness",
+  "decision": "D034",
+  "finding": "F022",
+  "generated": "2026-06-12",
+  "seed": 42,
+  "dataset": "CICIDS2017",
+  "window_size": 50000,
+  "train_days": [
+    "monday",
+    "tuesday"
+  ],
+  "replay_days": [
+    "wednesday",
+    "thursday",
+    "friday"
+  ],
+  "n_windows": 29,
+  "rf": {
+    "n_estimators": 100,
+    "max_depth": 12,
+    "random_state": 42,
+    "n_jobs": -1
+  },
+  "ceiling_buffer_windows": 1,
+  "train_families": [
+    "ftp-patator",
+    "ssh-patator"
+  ],
+  "novel_families": [
+    "botnet",
+    "ddos",
+    "dos goldeneye",
+    "dos hulk",
+    "dos slowhttptest",
+    "dos slowloris",
+    "heartbleed",
+    "infiltration",
+    "infiltration - portscan",
+    "portscan",
+    "web attack - brute force",
+    "web attack - sql injection",
+    "web attack - xss"
+  ],
+  "novel_rate": 0.3629724548309289,
+  "floor_mean": 0.0,
+  "ceiling_mean": 0.7994257396372196,
+  "gap": 0.7994257396372196,
+  "gates": {
+    "g1_drift": true,
+    "g2_floor": true,
+    "g3_ceiling": false,
+    "g4_determinism": true,
+    "GATE_FLOOR_MAX": 0.8,
+    "GATE_GAP_MIN": 0.1,
+    "GATE_CEIL_MIN": 0.85
+  },
+  "verdict": "HARNESS-CHECK-FAILED"
+}

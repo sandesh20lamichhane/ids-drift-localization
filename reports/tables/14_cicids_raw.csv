@@ -1,0 +1,271 @@
+family,model,seed,method,gt,precision
+Portscan,rf,42,ks,wasserstein,0.2
+Portscan,rf,42,ks,domain_oracle_shap,0.6
+Portscan,rf,42,domain_shap,wasserstein,0.2
+Portscan,rf,42,domain_shap,domain_oracle_shap,0.7
+Portscan,rf,42,dual_ids,wasserstein,0.2
+Portscan,rf,42,dual_ids,domain_oracle_shap,0.2
+Portscan,rf,42,perm_domain,wasserstein,0.0
+Portscan,rf,42,perm_domain,domain_oracle_shap,0.5
+Portscan,rf,42,random,wasserstein,0.0
+Portscan,rf,42,random,domain_oracle_shap,0.2
+Portscan,rf,1,ks,wasserstein,0.2
+Portscan,rf,1,ks,domain_oracle_shap,0.6
+Portscan,rf,1,domain_shap,wasserstein,0.2
+Portscan,rf,1,domain_shap,domain_oracle_shap,0.5
+Portscan,rf,1,dual_ids,wasserstein,0.1
+Portscan,rf,1,dual_ids,domain_oracle_shap,0.2
+Portscan,rf,1,perm_domain,wasserstein,0.0
+Portscan,rf,1,perm_domain,domain_oracle_shap,0.3
+Portscan,rf,1,random,wasserstein,0.0
+Portscan,rf,1,random,domain_oracle_shap,0.2
+Portscan,rf,7,ks,wasserstein,0.2
+Portscan,rf,7,ks,domain_oracle_shap,0.7
+Portscan,rf,7,domain_shap,wasserstein,0.3
+Portscan,rf,7,domain_shap,domain_oracle_shap,0.8
+Portscan,rf,7,dual_ids,wasserstein,0.3
+Portscan,rf,7,dual_ids,domain_oracle_shap,0.3
+Portscan,rf,7,perm_domain,wasserstein,0.0
+Portscan,rf,7,perm_domain,domain_oracle_shap,0.1
+Portscan,rf,7,random,wasserstein,0.4
+Portscan,rf,7,random,domain_oracle_shap,0.0
+Portscan,xgb,42,ks,wasserstein,0.2
+Portscan,xgb,42,ks,domain_oracle_shap,0.3
+Portscan,xgb,42,domain_shap,wasserstein,0.3
+Portscan,xgb,42,domain_shap,domain_oracle_shap,0.7
+Portscan,xgb,42,dual_ids,wasserstein,0.3
+Portscan,xgb,42,dual_ids,domain_oracle_shap,0.2
+Portscan,xgb,42,perm_domain,wasserstein,0.4
+Portscan,xgb,42,perm_domain,domain_oracle_shap,0.6
+Portscan,xgb,42,random,wasserstein,0.0
+Portscan,xgb,42,random,domain_oracle_shap,0.1
+Portscan,xgb,1,ks,wasserstein,0.2
+Portscan,xgb,1,ks,domain_oracle_shap,0.4
+Portscan,xgb,1,domain_shap,wasserstein,0.2
+Portscan,xgb,1,domain_shap,domain_oracle_shap,0.7
+Portscan,xgb,1,dual_ids,wasserstein,0.3
+Portscan,xgb,1,dual_ids,domain_oracle_shap,0.2
+Portscan,xgb,1,perm_domain,wasserstein,0.2
+Portscan,xgb,1,perm_domain,domain_oracle_shap,0.6
+Portscan,xgb,1,random,wasserstein,0.0
+Portscan,xgb,1,random,domain_oracle_shap,0.1
+Portscan,xgb,7,ks,wasserstein,0.2
+Portscan,xgb,7,ks,domain_oracle_shap,0.4
+Portscan,xgb,7,domain_shap,wasserstein,0.3
+Portscan,xgb,7,domain_shap,domain_oracle_shap,0.8
+Portscan,xgb,7,dual_ids,wasserstein,0.3
+Portscan,xgb,7,dual_ids,domain_oracle_shap,0.3
+Portscan,xgb,7,perm_domain,wasserstein,0.3
+Portscan,xgb,7,perm_domain,domain_oracle_shap,0.5
+Portscan,xgb,7,random,wasserstein,0.4
+Portscan,xgb,7,random,domain_oracle_shap,0.1
+Portscan,mlp,42,ks,wasserstein,0.2
+Portscan,mlp,42,ks,domain_oracle_shap,0.1
+Portscan,mlp,42,domain_shap,wasserstein,0.7
+Portscan,mlp,42,domain_shap,domain_oracle_shap,0.8
+Portscan,mlp,42,dual_ids,wasserstein,0.6
+Portscan,mlp,42,dual_ids,domain_oracle_shap,0.6
+Portscan,mlp,42,perm_domain,wasserstein,0.5
+Portscan,mlp,42,perm_domain,domain_oracle_shap,0.5
+Portscan,mlp,42,random,wasserstein,0.0
+Portscan,mlp,42,random,domain_oracle_shap,0.1
+Portscan,mlp,1,ks,wasserstein,0.2
+Portscan,mlp,1,ks,domain_oracle_shap,0.1
+Portscan,mlp,1,domain_shap,wasserstein,0.6
+Portscan,mlp,1,domain_shap,domain_oracle_shap,0.5
+Portscan,mlp,1,dual_ids,wasserstein,0.4
+Portscan,mlp,1,dual_ids,domain_oracle_shap,0.4
+Portscan,mlp,1,perm_domain,wasserstein,0.4
+Portscan,mlp,1,perm_domain,domain_oracle_shap,0.5
+Portscan,mlp,1,random,wasserstein,0.0
+Portscan,mlp,1,random,domain_oracle_shap,0.1
+Portscan,mlp,7,ks,wasserstein,0.2
+Portscan,mlp,7,ks,domain_oracle_shap,0.1
+Portscan,mlp,7,domain_shap,wasserstein,0.7
+Portscan,mlp,7,domain_shap,domain_oracle_shap,0.6
+Portscan,mlp,7,dual_ids,wasserstein,0.4
+Portscan,mlp,7,dual_ids,domain_oracle_shap,0.5
+Portscan,mlp,7,perm_domain,wasserstein,0.6
+Portscan,mlp,7,perm_domain,domain_oracle_shap,0.6
+Portscan,mlp,7,random,wasserstein,0.4
+Portscan,mlp,7,random,domain_oracle_shap,0.2
+DoS Hulk,rf,42,ks,wasserstein,0.9
+DoS Hulk,rf,42,ks,domain_oracle_shap,0.8
+DoS Hulk,rf,42,domain_shap,wasserstein,0.7
+DoS Hulk,rf,42,domain_shap,domain_oracle_shap,0.8
+DoS Hulk,rf,42,dual_ids,wasserstein,0.4
+DoS Hulk,rf,42,dual_ids,domain_oracle_shap,0.4
+DoS Hulk,rf,42,perm_domain,wasserstein,0.2
+DoS Hulk,rf,42,perm_domain,domain_oracle_shap,0.1
+DoS Hulk,rf,42,random,wasserstein,0.0
+DoS Hulk,rf,42,random,domain_oracle_shap,0.0
+DoS Hulk,rf,1,ks,wasserstein,0.9
+DoS Hulk,rf,1,ks,domain_oracle_shap,0.8
+DoS Hulk,rf,1,domain_shap,wasserstein,0.7
+DoS Hulk,rf,1,domain_shap,domain_oracle_shap,0.8
+DoS Hulk,rf,1,dual_ids,wasserstein,0.6
+DoS Hulk,rf,1,dual_ids,domain_oracle_shap,0.6
+DoS Hulk,rf,1,perm_domain,wasserstein,0.4
+DoS Hulk,rf,1,perm_domain,domain_oracle_shap,0.4
+DoS Hulk,rf,1,random,wasserstein,0.1
+DoS Hulk,rf,1,random,domain_oracle_shap,0.1
+DoS Hulk,rf,7,ks,wasserstein,0.9
+DoS Hulk,rf,7,ks,domain_oracle_shap,0.8
+DoS Hulk,rf,7,domain_shap,wasserstein,0.6
+DoS Hulk,rf,7,domain_shap,domain_oracle_shap,0.8
+DoS Hulk,rf,7,dual_ids,wasserstein,0.4
+DoS Hulk,rf,7,dual_ids,domain_oracle_shap,0.5
+DoS Hulk,rf,7,perm_domain,wasserstein,0.2
+DoS Hulk,rf,7,perm_domain,domain_oracle_shap,0.3
+DoS Hulk,rf,7,random,wasserstein,0.0
+DoS Hulk,rf,7,random,domain_oracle_shap,0.0
+DoS Hulk,xgb,42,ks,wasserstein,0.9
+DoS Hulk,xgb,42,ks,domain_oracle_shap,0.3
+DoS Hulk,xgb,42,domain_shap,wasserstein,0.5
+DoS Hulk,xgb,42,domain_shap,domain_oracle_shap,0.7
+DoS Hulk,xgb,42,dual_ids,wasserstein,0.2
+DoS Hulk,xgb,42,dual_ids,domain_oracle_shap,0.4
+DoS Hulk,xgb,42,perm_domain,wasserstein,0.4
+DoS Hulk,xgb,42,perm_domain,domain_oracle_shap,0.7
+DoS Hulk,xgb,42,random,wasserstein,0.0
+DoS Hulk,xgb,42,random,domain_oracle_shap,0.1
+DoS Hulk,xgb,1,ks,wasserstein,0.9
+DoS Hulk,xgb,1,ks,domain_oracle_shap,0.3
+DoS Hulk,xgb,1,domain_shap,wasserstein,0.3
+DoS Hulk,xgb,1,domain_shap,domain_oracle_shap,0.6
+DoS Hulk,xgb,1,dual_ids,wasserstein,0.2
+DoS Hulk,xgb,1,dual_ids,domain_oracle_shap,0.4
+DoS Hulk,xgb,1,perm_domain,wasserstein,0.2
+DoS Hulk,xgb,1,perm_domain,domain_oracle_shap,0.3
+DoS Hulk,xgb,1,random,wasserstein,0.1
+DoS Hulk,xgb,1,random,domain_oracle_shap,0.1
+DoS Hulk,xgb,7,ks,wasserstein,0.9
+DoS Hulk,xgb,7,ks,domain_oracle_shap,0.3
+DoS Hulk,xgb,7,domain_shap,wasserstein,0.4
+DoS Hulk,xgb,7,domain_shap,domain_oracle_shap,0.7
+DoS Hulk,xgb,7,dual_ids,wasserstein,0.3
+DoS Hulk,xgb,7,dual_ids,domain_oracle_shap,0.4
+DoS Hulk,xgb,7,perm_domain,wasserstein,0.4
+DoS Hulk,xgb,7,perm_domain,domain_oracle_shap,0.3
+DoS Hulk,xgb,7,random,wasserstein,0.0
+DoS Hulk,xgb,7,random,domain_oracle_shap,0.0
+DoS Hulk,mlp,42,ks,wasserstein,0.9
+DoS Hulk,mlp,42,ks,domain_oracle_shap,0.4
+DoS Hulk,mlp,42,domain_shap,wasserstein,0.2
+DoS Hulk,mlp,42,domain_shap,domain_oracle_shap,0.7
+DoS Hulk,mlp,42,dual_ids,wasserstein,0.7
+DoS Hulk,mlp,42,dual_ids,domain_oracle_shap,0.6
+DoS Hulk,mlp,42,perm_domain,wasserstein,0.2
+DoS Hulk,mlp,42,perm_domain,domain_oracle_shap,0.3
+DoS Hulk,mlp,42,random,wasserstein,0.0
+DoS Hulk,mlp,42,random,domain_oracle_shap,0.0
+DoS Hulk,mlp,1,ks,wasserstein,0.9
+DoS Hulk,mlp,1,ks,domain_oracle_shap,0.4
+DoS Hulk,mlp,1,domain_shap,wasserstein,0.4
+DoS Hulk,mlp,1,domain_shap,domain_oracle_shap,0.6
+DoS Hulk,mlp,1,dual_ids,wasserstein,0.4
+DoS Hulk,mlp,1,dual_ids,domain_oracle_shap,0.6
+DoS Hulk,mlp,1,perm_domain,wasserstein,0.0
+DoS Hulk,mlp,1,perm_domain,domain_oracle_shap,0.0
+DoS Hulk,mlp,1,random,wasserstein,0.1
+DoS Hulk,mlp,1,random,domain_oracle_shap,0.1
+DoS Hulk,mlp,7,ks,wasserstein,0.9
+DoS Hulk,mlp,7,ks,domain_oracle_shap,0.4
+DoS Hulk,mlp,7,domain_shap,wasserstein,0.5
+DoS Hulk,mlp,7,domain_shap,domain_oracle_shap,0.7
+DoS Hulk,mlp,7,dual_ids,wasserstein,0.5
+DoS Hulk,mlp,7,dual_ids,domain_oracle_shap,0.7
+DoS Hulk,mlp,7,perm_domain,wasserstein,0.3
+DoS Hulk,mlp,7,perm_domain,domain_oracle_shap,0.3
+DoS Hulk,mlp,7,random,wasserstein,0.0
+DoS Hulk,mlp,7,random,domain_oracle_shap,0.1
+DDoS,rf,42,ks,wasserstein,1.0
+DDoS,rf,42,ks,domain_oracle_shap,0.7
+DDoS,rf,42,domain_shap,wasserstein,0.8
+DDoS,rf,42,domain_shap,domain_oracle_shap,0.8
+DDoS,rf,42,dual_ids,wasserstein,0.3
+DDoS,rf,42,dual_ids,domain_oracle_shap,0.5
+DDoS,rf,42,perm_domain,wasserstein,0.2
+DDoS,rf,42,perm_domain,domain_oracle_shap,0.2
+DDoS,rf,42,random,wasserstein,0.0
+DDoS,rf,42,random,domain_oracle_shap,0.1
+DDoS,rf,1,ks,wasserstein,1.0
+DDoS,rf,1,ks,domain_oracle_shap,0.7
+DDoS,rf,1,domain_shap,wasserstein,0.9
+DDoS,rf,1,domain_shap,domain_oracle_shap,0.7
+DDoS,rf,1,dual_ids,wasserstein,0.6
+DDoS,rf,1,dual_ids,domain_oracle_shap,0.5
+DDoS,rf,1,perm_domain,wasserstein,0.3
+DDoS,rf,1,perm_domain,domain_oracle_shap,0.3
+DDoS,rf,1,random,wasserstein,0.1
+DDoS,rf,1,random,domain_oracle_shap,0.1
+DDoS,rf,7,ks,wasserstein,1.0
+DDoS,rf,7,ks,domain_oracle_shap,0.7
+DDoS,rf,7,domain_shap,wasserstein,0.7
+DDoS,rf,7,domain_shap,domain_oracle_shap,0.8
+DDoS,rf,7,dual_ids,wasserstein,0.5
+DDoS,rf,7,dual_ids,domain_oracle_shap,0.7
+DDoS,rf,7,perm_domain,wasserstein,0.1
+DDoS,rf,7,perm_domain,domain_oracle_shap,0.1
+DDoS,rf,7,random,wasserstein,0.0
+DDoS,rf,7,random,domain_oracle_shap,0.0
+DDoS,xgb,42,ks,wasserstein,1.0
+DDoS,xgb,42,ks,domain_oracle_shap,0.4
+DDoS,xgb,42,domain_shap,wasserstein,0.4
+DDoS,xgb,42,domain_shap,domain_oracle_shap,0.6
+DDoS,xgb,42,dual_ids,wasserstein,0.2
+DDoS,xgb,42,dual_ids,domain_oracle_shap,0.3
+DDoS,xgb,42,perm_domain,wasserstein,0.3
+DDoS,xgb,42,perm_domain,domain_oracle_shap,0.4
+DDoS,xgb,42,random,wasserstein,0.0
+DDoS,xgb,42,random,domain_oracle_shap,0.0
+DDoS,xgb,1,ks,wasserstein,1.0
+DDoS,xgb,1,ks,domain_oracle_shap,0.4
+DDoS,xgb,1,domain_shap,wasserstein,0.4
+DDoS,xgb,1,domain_shap,domain_oracle_shap,0.6
+DDoS,xgb,1,dual_ids,wasserstein,0.2
+DDoS,xgb,1,dual_ids,domain_oracle_shap,0.3
+DDoS,xgb,1,perm_domain,wasserstein,0.3
+DDoS,xgb,1,perm_domain,domain_oracle_shap,0.6
+DDoS,xgb,1,random,wasserstein,0.1
+DDoS,xgb,1,random,domain_oracle_shap,0.2
+DDoS,xgb,7,ks,wasserstein,1.0
+DDoS,xgb,7,ks,domain_oracle_shap,0.4
+DDoS,xgb,7,domain_shap,wasserstein,0.3
+DDoS,xgb,7,domain_shap,domain_oracle_shap,0.5
+DDoS,xgb,7,dual_ids,wasserstein,0.3
+DDoS,xgb,7,dual_ids,domain_oracle_shap,0.3
+DDoS,xgb,7,perm_domain,wasserstein,0.3
+DDoS,xgb,7,perm_domain,domain_oracle_shap,0.4
+DDoS,xgb,7,random,wasserstein,0.0
+DDoS,xgb,7,random,domain_oracle_shap,0.1
+DDoS,mlp,42,ks,wasserstein,1.0
+DDoS,mlp,42,ks,domain_oracle_shap,0.5
+DDoS,mlp,42,domain_shap,wasserstein,0.8
+DDoS,mlp,42,domain_shap,domain_oracle_shap,0.7
+DDoS,mlp,42,dual_ids,wasserstein,0.7
+DDoS,mlp,42,dual_ids,domain_oracle_shap,0.5
+DDoS,mlp,42,perm_domain,wasserstein,0.2
+DDoS,mlp,42,perm_domain,domain_oracle_shap,0.5
+DDoS,mlp,42,random,wasserstein,0.0
+DDoS,mlp,42,random,domain_oracle_shap,0.0
+DDoS,mlp,1,ks,wasserstein,1.0
+DDoS,mlp,1,ks,domain_oracle_shap,0.5
+DDoS,mlp,1,domain_shap,wasserstein,0.6
+DDoS,mlp,1,domain_shap,domain_oracle_shap,0.6
+DDoS,mlp,1,dual_ids,wasserstein,0.3
+DDoS,mlp,1,dual_ids,domain_oracle_shap,0.3
+DDoS,mlp,1,perm_domain,wasserstein,0.6
+DDoS,mlp,1,perm_domain,domain_oracle_shap,0.4
+DDoS,mlp,1,random,wasserstein,0.1
+DDoS,mlp,1,random,domain_oracle_shap,0.1
+DDoS,mlp,7,ks,wasserstein,1.0
+DDoS,mlp,7,ks,domain_oracle_shap,0.5
+DDoS,mlp,7,domain_shap,wasserstein,0.7
+DDoS,mlp,7,domain_shap,domain_oracle_shap,0.4
+DDoS,mlp,7,dual_ids,wasserstein,0.6
+DDoS,mlp,7,dual_ids,domain_oracle_shap,0.4
+DDoS,mlp,7,perm_domain,wasserstein,0.5
+DDoS,mlp,7,perm_domain,domain_oracle_shap,0.5
+DDoS,mlp,7,random,wasserstein,0.0
+DDoS,mlp,7,random,domain_oracle_shap,0.1

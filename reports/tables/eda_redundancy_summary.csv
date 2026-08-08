@@ -1,0 +1,2 @@
+dataset,n,d,median_abs_r,frac_pairs_gt_0p9,pca_k90,pca_k99,effective_dim_ratio
+unsw,257673,42,0.082,0.021,18,29,0.429

@@ -1,0 +1,13 @@
+name: example_run
+seed: 42
+dataset: cicids2017
+drift_type: day_split
+model:
+  type: random_forest
+  n_estimators: 100
+  max_depth: 10
+auxiliary:
+  window: 2000
+explainer: shap_tree
+divergence: wasserstein
+output_dir: experiments/results/example_run

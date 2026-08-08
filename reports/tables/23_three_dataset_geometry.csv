@@ -1,0 +1,4 @@
+dataset,n_features,n_nondegenerate,median_redundancy,leakage_floor_size5
+CICIDS2017,82,63,0.95,0.248
+UNSW-NB15,42,29,0.903,0.44
+CSE-CIC-IDS2018,82,60,0.969,0.365

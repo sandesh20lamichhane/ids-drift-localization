@@ -1,0 +1,58 @@
+{
+  "generated": "2026-06-09T05:06:51",
+  "purpose": "isolate explainer vs model-class cause of the F018 MLP domain-SHAP advantage",
+  "dataset": "UNSW-NB15",
+  "construction": "additive leave-one-family-out (as notebook 13)",
+  "heldout_families": [
+    "Generic",
+    "Exploits",
+    "Fuzzers"
+  ],
+  "models": [
+    "rf",
+    "xgb",
+    "mlp"
+  ],
+  "seeds": [
+    42,
+    1,
+    7
+  ],
+  "k": 10,
+  "chance": 0.23809523809523808,
+  "ks_mean": 0.4111111111111111,
+  "margin": 0.05,
+  "by_model": {
+    "rf": {
+      "treeshap": 0.3888888888888889,
+      "perm": 0.3333333333333333,
+      "ks_minus_tree": 0.0222222222222222,
+      "ks_minus_perm": 0.07777777777777778,
+      "perm_lift": -0.05555555555555558
+    },
+    "xgb": {
+      "treeshap": 0.35555555555555557,
+      "perm": 0.32222222222222224,
+      "ks_minus_tree": 0.055555555555555525,
+      "ks_minus_perm": 0.08888888888888885,
+      "perm_lift": -0.033333333333333326
+    },
+    "mlp": {
+      "treeshap": NaN,
+      "perm": 0.5777777777777777,
+      "ks_minus_tree": NaN,
+      "ks_minus_perm": -0.16666666666666663,
+      "perm_lift": NaN
+    }
+  },
+  "ks_minus_domainshap_perm": {
+    "rf": 0.07777777777777778,
+    "xgb": 0.08888888888888885,
+    "mlp": -0.16666666666666663
+  },
+  "tree_perm_agreement": {
+    "rf": 0.9614293817356779,
+    "xgb": 0.9745307429650807
+  },
+  "verdict": "MODEL-DRIVEN"
+}

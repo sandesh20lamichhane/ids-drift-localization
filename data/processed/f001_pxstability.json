@@ -1,0 +1,17 @@
+{
+  "generated": "2026-06-05T07:16:03",
+  "seeds": [
+    42,
+    1,
+    7
+  ],
+  "arm_n": 8000,
+  "rel_size": 5,
+  "null_ks_max": 0.0168,
+  "concept_ks_max": 0.0168,
+  "distributional_ks_max": 0.9998,
+  "concept_ks_mean": 0.0071,
+  "concept_wass_max": 0.0403,
+  "verdict": "PXSTABLE",
+  "cross_ref_07e_ks_max": 0.017
+}

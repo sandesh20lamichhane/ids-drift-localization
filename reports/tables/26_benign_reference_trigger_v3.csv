@@ -1,0 +1,7 @@
+breadth,arm,tau,quiet_events,latency,t2500_recall,t250_labels,tau_disjoint,tau_perm
+1,control,0.0155,1/10 fires,0,0.868,500,,
+1,treatment_v3,0.0173,0/6 fires; exceed@[],1,0.966,500,0.0144,0.0173
+2,control,0.0147,1/10 fires,0,0.914,2000,,
+2,treatment_v3,0.0187,0/6 fires; exceed@[],1,0.956,250,0.0148,0.0187
+4,control,0.0128,2/10 fires,0,0.842,1750,,
+4,treatment_v3,0.0175,0/6 fires; exceed@[],1,0.987,250,0.0132,0.0175

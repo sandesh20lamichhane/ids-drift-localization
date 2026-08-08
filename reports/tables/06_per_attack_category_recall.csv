@@ -1,0 +1,76 @@
+day,model,attack_category,n,recall
+tuesday,cold_start,FTP-Patator,3984,0.9909638554216867
+tuesday,cold_start,SSH-Patator,2988,0.9685408299866132
+tuesday,cold_start_balanced,FTP-Patator,3984,0.992218875502008
+tuesday,cold_start_balanced,SSH-Patator,2988,0.9732262382864793
+tuesday,cold_start_downsampled,FTP-Patator,3984,0.992218875502008
+tuesday,cold_start_downsampled,SSH-Patator,2988,0.9725568942436412
+tuesday,realistic,FTP-Patator,3984,0.9974899598393574
+tuesday,realistic,SSH-Patator,2988,0.9896251673360107
+tuesday,oracle,FTP-Patator,3984,0.9967369477911646
+tuesday,oracle,SSH-Patator,2988,0.9802543507362784
+wednesday,cold_start,DoS Slowloris,5706,0.0
+wednesday,cold_start,DoS Slowhttptest,5108,0.0
+wednesday,cold_start,DoS Hulk,159049,0.0
+wednesday,cold_start,DoS GoldenEye,7647,0.0
+wednesday,cold_start,Heartbleed,11,0.0
+wednesday,cold_start_balanced,DoS Slowloris,5706,0.0
+wednesday,cold_start_balanced,DoS Slowhttptest,5108,0.0
+wednesday,cold_start_balanced,DoS Hulk,159049,0.0
+wednesday,cold_start_balanced,DoS GoldenEye,7647,0.0
+wednesday,cold_start_balanced,Heartbleed,11,0.0
+wednesday,cold_start_downsampled,DoS Slowloris,5706,0.0
+wednesday,cold_start_downsampled,DoS Slowhttptest,5108,0.0
+wednesday,cold_start_downsampled,DoS Hulk,159049,0.0
+wednesday,cold_start_downsampled,DoS GoldenEye,7647,0.0
+wednesday,cold_start_downsampled,Heartbleed,11,0.0
+wednesday,realistic,DoS Slowloris,5706,0.0
+wednesday,realistic,DoS Slowhttptest,5108,0.0
+wednesday,realistic,DoS Hulk,159049,0.0
+wednesday,realistic,DoS GoldenEye,7647,0.0
+wednesday,realistic,Heartbleed,11,0.0
+wednesday,oracle,DoS Slowloris,5706,0.9668769716088328
+wednesday,oracle,DoS Slowhttptest,5108,0.9890368050117463
+wednesday,oracle,DoS Hulk,159049,0.9998050915126785
+wednesday,oracle,DoS GoldenEye,7647,0.9323917876291357
+wednesday,oracle,Heartbleed,11,0.9090909090909091
+thursday,cold_start,Web Attack - Brute Force,1365,0.0
+thursday,cold_start,Infiltration,81,0.0
+thursday,cold_start,Infiltration - Portscan,71767,0.0
+thursday,cold_start,Web Attack - XSS,673,0.0
+thursday,cold_start,Web Attack - SQL Injection,18,0.0
+thursday,cold_start_balanced,Web Attack - Brute Force,1365,0.0
+thursday,cold_start_balanced,Infiltration,81,0.0
+thursday,cold_start_balanced,Infiltration - Portscan,71767,0.0
+thursday,cold_start_balanced,Web Attack - XSS,673,0.0
+thursday,cold_start_balanced,Web Attack - SQL Injection,18,0.0
+thursday,cold_start_downsampled,Web Attack - Brute Force,1365,0.0
+thursday,cold_start_downsampled,Infiltration,81,0.0
+thursday,cold_start_downsampled,Infiltration - Portscan,71767,0.0
+thursday,cold_start_downsampled,Web Attack - XSS,673,0.0
+thursday,cold_start_downsampled,Web Attack - SQL Injection,18,0.0
+thursday,realistic,Web Attack - Brute Force,1365,0.0
+thursday,realistic,Infiltration,81,0.0
+thursday,realistic,Infiltration - Portscan,71767,0.0
+thursday,realistic,Web Attack - XSS,673,0.0
+thursday,realistic,Web Attack - SQL Injection,18,0.0
+thursday,oracle,Web Attack - Brute Force,1365,0.9355311355311355
+thursday,oracle,Infiltration,81,0.7654320987654321
+thursday,oracle,Infiltration - Portscan,71767,0.9948165591427816
+thursday,oracle,Web Attack - XSS,673,0.9851411589895989
+thursday,oracle,Web Attack - SQL Injection,18,0.0
+friday,cold_start,Botnet,4803,0.0
+friday,cold_start,Portscan,159066,0.0
+friday,cold_start,DDoS,95144,0.0
+friday,cold_start_balanced,Botnet,4803,0.0
+friday,cold_start_balanced,Portscan,159066,0.0
+friday,cold_start_balanced,DDoS,95144,0.0
+friday,cold_start_downsampled,Botnet,4803,0.0
+friday,cold_start_downsampled,Portscan,159066,0.0
+friday,cold_start_downsampled,DDoS,95144,0.0
+friday,realistic,Botnet,4803,0.0
+friday,realistic,Portscan,159066,0.0
+friday,realistic,DDoS,95144,0.0
+friday,oracle,Botnet,4803,0.8196960233187591
+friday,oracle,Portscan,159066,0.9996730916726391
+friday,oracle,DDoS,95144,1.0

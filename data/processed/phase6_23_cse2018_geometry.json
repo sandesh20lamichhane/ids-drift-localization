@@ -1,0 +1,19 @@
+{
+  "dataset": "cse_cic_ids2018",
+  "run_version": "v2_post_attempted_category_fix (A1.0)",
+  "n_features": 82,
+  "n_nondegenerate": 60,
+  "median_redundancy": 0.969,
+  "leakage_floor_size5": 0.365,
+  "decorrelated_target_reachable": false,
+  "best_size5_set": [
+    "bwd_header_length",
+    "flow_bytes_s",
+    "total_tcp_flow_time",
+    "fwd_init_win_bytes",
+    "fwd_header_length"
+  ],
+  "prereg_P1_holds (median >= 0.85)": true,
+  "prereg_P2_holds (floor >= 0.20)": true,
+  "verdict": "UNREACHABLE-REGIME-CONFIRMED \u2014 R2 replicates on a third dataset; proceed to notebooks 24/25."
+}

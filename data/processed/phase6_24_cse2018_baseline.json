@@ -1,0 +1,15 @@
+{
+  "gate": {
+    "reference_bruteforce_recall_trainday": 1.0,
+    "n_decisive_family_days": 5,
+    "frac_decisive_with_drop_ge_0.30": 1.0,
+    "imbalance_delta_balanced": 0.0001,
+    "imbalance_delta_downsampled": 0.0001,
+    "underpowered_families": [
+      "Web"
+    ],
+    "G_DRIFT_pass": true
+  },
+  "oracle_mean_novel_recall": 0.861,
+  "frozen_mean_novel_recall": 0.006
+}

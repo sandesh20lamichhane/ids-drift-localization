@@ -1,0 +1,74 @@
+{
+  "generated": "2026-06-05T06:56:33",
+  "dataset": "UNSW-NB15",
+  "drift": "additive leave-one-family-out (inject H at P)",
+  "inject_p": 0.5,
+  "unsw_file": "/content/drive/MyDrive/phd_thesis/data/processed/unsw_nb15/UNSW_NB15_training-set.parquet",
+  "n_features": 42,
+  "heldout_families": [
+    "Generic",
+    "Exploits",
+    "Fuzzers"
+  ],
+  "models": [
+    "rf",
+    "xgb"
+  ],
+  "seeds": [
+    42,
+    1,
+    7
+  ],
+  "k": 10,
+  "chance": 0.23809523809523808,
+  "margin": 0.05,
+  "wasserstein_anchor": {
+    "ks": 0.41111111111111115,
+    "domain_shap": 0.36666666666666664,
+    "dual_ids": 0.37222222222222223,
+    "perm_domain": 0.32222222222222224,
+    "ks_minus_domainshap": 0.04444444444444451,
+    "dual_minus_domainshap": 0.005555555555555591
+  },
+  "method_gt_matrix": {
+    "ks": {
+      "wasserstein": 0.41111111111111115,
+      "domain_oracle_shap": 0.5611111111111111,
+      "domain_oracle_gain": 0.3833333333333334
+    },
+    "domain_shap": {
+      "wasserstein": 0.36666666666666664,
+      "domain_oracle_shap": 0.7888888888888889,
+      "domain_oracle_gain": 0.5944444444444446
+    },
+    "dual_ids": {
+      "wasserstein": 0.37222222222222223,
+      "domain_oracle_shap": 0.5388888888888889,
+      "domain_oracle_gain": 0.4666666666666667
+    },
+    "perm_domain": {
+      "wasserstein": 0.32222222222222224,
+      "domain_oracle_shap": 0.5722222222222222,
+      "domain_oracle_gain": 0.4833333333333334
+    },
+    "random": {
+      "wasserstein": 0.2666666666666667,
+      "domain_oracle_shap": 0.15000000000000002,
+      "domain_oracle_gain": 0.2111111111111111
+    }
+  },
+  "domain_shap_inflation_vs_oracle": 0.4222222222222222,
+  "self_stability": {
+    "ks": 0.7912457912457912,
+    "domain_shap": 0.6189366189366189,
+    "dual_ids": 0.48359864536335123,
+    "perm_domain": 0.32271940115077363,
+    "random": 0.12730764820548102
+  },
+  "verdict": "C2-REPLICATES-CROSS-DATASET",
+  "supersedes": "notebook 10 / F014 (construction-limited)",
+  "cicids_reference": {
+    "ks_vs_aux_gt2": "+0.067 (KS 0.833 > aux 0.766)",
+    "dual_adds": "nothing (07e/07f)"
+  }
+}

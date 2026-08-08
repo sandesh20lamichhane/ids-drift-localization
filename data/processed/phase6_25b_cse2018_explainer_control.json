@@ -1,0 +1,109 @@
+{
+  "generated": "2026-07-07T17:52:36",
+  "purpose": "explainer control + regime diagnostic for the 2018 P6 MLP win",
+  "dataset": "CSE-CIC-IDS2018 (improved)",
+  "arms": [
+    "DoS",
+    "DDoS",
+    "Infiltration",
+    "Bot"
+  ],
+  "models": [
+    "rf",
+    "xgb",
+    "mlp"
+  ],
+  "seeds": [
+    42,
+    1,
+    7
+  ],
+  "k": 10,
+  "chance": 0.12195121951219512,
+  "ks_mean": 0.425,
+  "margin": 0.05,
+  "by_model": {
+    "rf": {
+      "treeshap": 0.375,
+      "perm": 0.3666666666666667,
+      "ks_minus_tree": 0.04999999999999999,
+      "ks_minus_perm": 0.05833333333333329,
+      "perm_lift": -0.008333333333333304
+    },
+    "xgb": {
+      "treeshap": 0.20833333333333334,
+      "perm": 0.15833333333333335,
+      "ks_minus_tree": 0.21666666666666665,
+      "ks_minus_perm": 0.2666666666666666,
+      "perm_lift": -0.04999999999999999
+    },
+    "mlp": {
+      "treeshap": NaN,
+      "perm": 0.5333333333333333,
+      "ks_minus_tree": NaN,
+      "ks_minus_perm": -0.10833333333333334,
+      "perm_lift": NaN
+    }
+  },
+  "ks_minus_domainshap_perm": {
+    "rf": 0.05833333333333329,
+    "xgb": 0.2666666666666666,
+    "mlp": -0.10833333333333334
+  },
+  "tree_perm_agreement": {
+    "rf": 0.9766270929455682,
+    "xgb": 0.975873480715368
+  },
+  "verdict": "MODEL-DRIVEN",
+  "regime_diagnostic": [
+    {
+      "family": "Infiltration",
+      "ks_max": 0.453,
+      "ks_mean": 0.252,
+      "ks_top10_mean": 0.451,
+      "wass_max_z": 2.075,
+      "wass_top10_mean_z": 1.081,
+      "ks_precision": 0.3,
+      "domain_shap_mlp": 0.3,
+      "mlp_minus_ks": 0.0
+    },
+    {
+      "family": "Bot",
+      "ks_max": 0.456,
+      "ks_mean": 0.215,
+      "ks_top10_mean": 0.4,
+      "wass_max_z": 0.644,
+      "wass_top10_mean_z": 0.527,
+      "ks_precision": 0.5,
+      "domain_shap_mlp": 0.6,
+      "mlp_minus_ks": 0.1
+    },
+    {
+      "family": "DoS",
+      "ks_max": 0.49,
+      "ks_mean": 0.189,
+      "ks_top10_mean": 0.351,
+      "wass_max_z": 0.961,
+      "wass_top10_mean_z": 0.51,
+      "ks_precision": 0.4,
+      "domain_shap_mlp": 0.633,
+      "mlp_minus_ks": 0.233
+    },
+    {
+      "family": "DDoS",
+      "ks_max": 0.39,
+      "ks_mean": 0.16,
+      "ks_top10_mean": 0.33,
+      "wass_max_z": 1.063,
+      "wass_top10_mean_z": 0.546,
+      "ks_precision": 0.5,
+      "domain_shap_mlp": 0.667,
+      "mlp_minus_ks": 0.167
+    }
+  ],
+  "cross_dataset_ks_anchor_points": {
+    "unsw": 0.411,
+    "cicids": 0.7,
+    "cse2018": 0.425
+  }
+}

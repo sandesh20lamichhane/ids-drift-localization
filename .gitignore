@@ -1,0 +1,11 @@
+data/raw/
+data/interim/
+data/processed/*.parquet
+*.parquet
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+.kaggle/
+kaggle.json
+.DS_Store
+*.log

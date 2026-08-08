@@ -1,0 +1,78 @@
+{
+  "generated": "2026-07-07T17:37:26",
+  "dataset": "CSE-CIC-IDS2018 (improved)",
+  "drift": "additive leave-one-family-out (inject H at P)",
+  "inject_p": 0.5,
+  "n_features": 82,
+  "arms": [
+    "DoS",
+    "DDoS",
+    "Infiltration",
+    "Bot"
+  ],
+  "web_excluded_underpowered": true,
+  "pool_per_day": 200000,
+  "models": [
+    "rf",
+    "xgb",
+    "mlp"
+  ],
+  "seeds": [
+    42,
+    1,
+    7
+  ],
+  "k": 10,
+  "chance": 0.12195121951219512,
+  "margin": 0.05,
+  "gts": [
+    "wasserstein",
+    "domain_oracle_shap"
+  ],
+  "by_model": {
+    "rf": {
+      "ks": 0.425,
+      "domain_shap": 0.3666666666666667,
+      "dual_ids": 0.38333333333333336,
+      "perm_domain": 0.2583333333333333,
+      "random": 0.075,
+      "ks_minus_dom": 0.05833333333333329,
+      "dual_minus_dom": 0.016666666666666663,
+      "circularity": 0.42500000000000016,
+      "domain_shap_stability": 0.5968753468753468,
+      "perm_domain_stability": 0.1751375988992088
+    },
+    "xgb": {
+      "ks": 0.425,
+      "domain_shap": 0.225,
+      "dual_ids": 0.17500000000000002,
+      "perm_domain": 0.2583333333333333,
+      "random": 0.075,
+      "ks_minus_dom": 0.19999999999999998,
+      "dual_minus_dom": -0.04999999999999999,
+      "circularity": 0.43333333333333324,
+      "domain_shap_stability": 0.4334554334554334,
+      "perm_domain_stability": 0.2683239962651727
+    },
+    "mlp": {
+      "ks": 0.425,
+      "domain_shap": 0.5499999999999999,
+      "dual_ids": 0.49166666666666664,
+      "perm_domain": 0.375,
+      "random": 0.075,
+      "ks_minus_dom": -0.12499999999999994,
+      "dual_minus_dom": -0.05833333333333329,
+      "circularity": 0.06666666666666665,
+      "domain_shap_stability": 0.4926739926739927,
+      "perm_domain_stability": 0.30553610333022097
+    }
+  },
+  "gate": {
+    "P3_dual_adds_nothing_all_models": true,
+    "P4_ks_competitive_trees": true,
+    "P6_mlp_ks_minus_dom": -0.12499999999999994,
+    "P6_mlp_beats_ks": true
+  },
+  "verdict": "C2-REPLICATES-2018",
+  "mirrors": "notebook 13 / D030 construction; A2 adaptations only"
+}

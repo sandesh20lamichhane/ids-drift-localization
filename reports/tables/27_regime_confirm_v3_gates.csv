@@ -1,0 +1,5 @@
+seed,hard_breadth,frozen_hard,ceiling_hard,cheap_hard,benefit_mild,benefit_hard,G1,G2a,G2b,G_CHEAP
+42,1,0.63,0.958,0.966,-0.119,0.327,True,True,True,True
+7,1,0.646,0.958,0.97,-0.117,0.312,True,True,True,True
+123,1,0.651,0.958,0.971,-0.12,0.307,True,True,True,True
+2024,1,0.642,0.958,0.97,-0.12,0.316,True,True,True,True

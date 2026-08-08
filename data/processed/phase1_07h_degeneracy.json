@@ -1,0 +1,55 @@
+{
+  "generated": "2026-06-04T18:11:48",
+  "seeds": [
+    42,
+    1,
+    7
+  ],
+  "rel_size": 5,
+  "chance": 0.06097560975609756,
+  "modal_max": 0.9,
+  "min_distinct": 20,
+  "nondegenerate_count": 63,
+  "nondegen_count_by_modal": {
+    "0.8": 58,
+    "0.9": 63,
+    "0.95": 66,
+    "0.99": 66
+  },
+  "s2_07g_features": [
+    "fwd_urg_flags",
+    "bwd_urg_flags",
+    "urg_flag_count",
+    "subflow_bwd_packets",
+    "bwd_bulk_rate_avg"
+  ],
+  "s2_07g_modal_frac": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    0.8996
+  ],
+  "demo_label_balance": 0.0,
+  "nd_low_features": [
+    "bwd_bulk_rate_avg",
+    "total_tcp_flow_time",
+    "bwd_init_win_bytes",
+    "bwd_packets_s",
+    "idle_std"
+  ],
+  "leak_nd_low": 0.24795431984747723,
+  "leak_nd_high": 0.9740576015476915,
+  "nd_low_recall": 0.9883333333333333,
+  "nd_low_balance": 0.5,
+  "nd_low_shap": 0.26666666666666666,
+  "nd_high_shap": 0.6,
+  "real_reached": false,
+  "low_valid": true,
+  "verdict": "COMPOUND-STRUCTURAL-BLOCK",
+  "syn_mechanism_07g": {
+    "syn_low": 1.0,
+    "syn_trend": 0.4666666666666667,
+    "confirmed": true
+  }
+}

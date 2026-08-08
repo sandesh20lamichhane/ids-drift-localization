@@ -1,0 +1,194 @@
+{
+  "notebook": "26_benign_reference_trigger",
+  "prereg": "A3",
+  "generated": "2026-07-07",
+  "seed": 42,
+  "construction": "nb21 (D039) verbatim; two monitor arms on identical streams",
+  "breadths": [
+    1,
+    2,
+    4
+  ],
+  "window_size": 5000,
+  "quiet_windows": 10,
+  "n_cal_boot": 10,
+  "gates": {
+    "G_CTRL": true,
+    "G_FA": false,
+    "G_DET": true
+  },
+  "per_breadth": [
+    {
+      "breadth": 1,
+      "seen": [
+        "generic"
+      ],
+      "onset": 10,
+      "never_recall": 0.6301771233057977,
+      "slide_recall": 0.9576284002192775,
+      "tau_boot": 0.013677695380448898,
+      "tau_contig": 0.013386576210654857,
+      "control": {
+        "tau": 0.015461342770711251,
+        "triggers": [
+          0,
+          10
+        ],
+        "fa_k": 1,
+        "fa_n": 10,
+        "fa_point": 0.1,
+        "fa_ci": [
+          0.01787574951572113,
+          0.4041563854975721
+        ],
+        "onset_latency": 0,
+        "recall_t2500": 0.8679703597285495,
+        "recall_t250": 0.8522239655205005,
+        "labels_t250": 500
+      },
+      "treatment": {
+        "tau": 0.013677695380448898,
+        "triggers": [
+          3,
+          7,
+          10,
+          32
+        ],
+        "fa_k": 2,
+        "fa_n": 10,
+        "fa_point": 0.2,
+        "fa_ci": [
+          0.056680947980693314,
+          0.5098431532792765
+        ],
+        "onset_latency": 0,
+        "recall_t2500": 0.8188975633730932,
+        "recall_t250": 0.7999470709438385,
+        "labels_t250": 1000
+      }
+    },
+    {
+      "breadth": 2,
+      "seen": [
+        "generic",
+        "exploits"
+      ],
+      "onset": 10,
+      "never_recall": 0.6911891900713155,
+      "slide_recall": 0.9334171059288151,
+      "tau_boot": 0.014229239095898197,
+      "tau_contig": 0.012880236831407255,
+      "control": {
+        "tau": 0.014659836941803402,
+        "triggers": [
+          0,
+          10,
+          12,
+          13,
+          15,
+          22,
+          23,
+          25
+        ],
+        "fa_k": 1,
+        "fa_n": 10,
+        "fa_point": 0.1,
+        "fa_ci": [
+          0.01787574951572113,
+          0.4041563854975721
+        ],
+        "onset_latency": 0,
+        "recall_t2500": 0.913589111738499,
+        "recall_t250": 0.8890285098813584,
+        "labels_t250": 2000
+      },
+      "treatment": {
+        "tau": 0.014229239095898197,
+        "triggers": [
+          3,
+          7,
+          10,
+          12,
+          13,
+          14,
+          17,
+          18
+        ],
+        "fa_k": 2,
+        "fa_n": 10,
+        "fa_point": 0.2,
+        "fa_ci": [
+          0.056680947980693314,
+          0.5098431532792765
+        ],
+        "onset_latency": 0,
+        "recall_t2500": 0.8870701894675,
+        "recall_t250": 0.8573200385136348,
+        "labels_t250": 2000
+      }
+    },
+    {
+      "breadth": 4,
+      "seen": [
+        "generic",
+        "exploits",
+        "fuzzers",
+        "dos"
+      ],
+      "onset": 10,
+      "never_recall": 0.9838475674630042,
+      "slide_recall": 0.864493664764484,
+      "tau_boot": 0.012090822577956146,
+      "tau_contig": 0.013820188937740707,
+      "control": {
+        "tau": 0.012837140104894049,
+        "triggers": [
+          0,
+          8,
+          10,
+          12,
+          15,
+          16,
+          17
+        ],
+        "fa_k": 2,
+        "fa_n": 10,
+        "fa_point": 0.2,
+        "fa_ci": [
+          0.056680947980693314,
+          0.5098431532792765
+        ],
+        "onset_latency": 0,
+        "recall_t2500": 0.8416674726762743,
+        "recall_t250": 0.8167617758003676,
+        "labels_t250": 1750
+      },
+      "treatment": {
+        "tau": 0.012090822577956146,
+        "triggers": [
+          3,
+          4,
+          8,
+          10,
+          12,
+          14,
+          15,
+          16,
+          17
+        ],
+        "fa_k": 3,
+        "fa_n": 10,
+        "fa_point": 0.3,
+        "fa_ci": [
+          0.10778928748621183,
+          0.6032267800204347
+        ],
+        "onset_latency": 0,
+        "recall_t2500": 0.8384273140535835,
+        "recall_t250": 0.8018183576748235,
+        "labels_t250": 2250
+      }
+    }
+  ],
+  "verdict": "FIX-INSUFFICIENT"
+}

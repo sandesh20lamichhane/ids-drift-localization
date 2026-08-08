@@ -1,0 +1,11 @@
+attack_category,count
+benign,93000
+generic,58871
+exploits,44525
+fuzzers,24246
+dos,16353
+reconnaissance,13987
+analysis,2677
+backdoor,2329
+shellcode,1511
+worms,174
