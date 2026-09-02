@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+title: "Do Intrusion Detection Results Survive Label Correction? A Matched-Flow Re-Evaluation of CICIDS2017 and CSE-CIC-IDS2018"
+authors:
+  - family-names: "Sadath P"
+    given-names: "Mohammed"
+  - family-names: "Kaviyarasi"
+    given-names: "R."
+  - family-names: "Lamichhane"
+    given-names: "Sandesh"
+message: "If you use this pipeline or its results, please cite the paper."
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.22065986
+    description: "Archived snapshot of this repository on Zenodo"
