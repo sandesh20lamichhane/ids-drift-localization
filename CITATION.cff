@@ -1,14 +1,14 @@
 cff-version: 1.2.0
-title: "Do Intrusion Detection Results Survive Label Correction? A Matched-Flow Re-Evaluation of CICIDS2017 and CSE-CIC-IDS2018"
+title: "When Does SHAP-Based Drift Localization Beat a Simple Statistical Test? A Pre-Registered Evaluation Across Three Intrusion Detection Datasets"
 authors:
-  - family-names: "Sadath P"
-    given-names: "Mohammed"
-  - family-names: "Kaviyarasi"
-    given-names: "R."
   - family-names: "Lamichhane"
     given-names: "Sandesh"
+    orcid: "https://orcid.org/0009-0000-1878-9431"
+  - family-names: "N"
+    given-names: "Usman Aijaz"
+    orcid: "https://orcid.org/0000-0003-0955-044X"
 message: "If you use this pipeline or its results, please cite the paper."
 identifiers:
   - type: doi
-    value: 10.5281/zenodo.22065986
-    description: "Archived snapshot of this repository on Zenodo"
+    value: 10.5281/zenodo.21856844
+    description: "Archived release v1.0.1 on Zenodo"
