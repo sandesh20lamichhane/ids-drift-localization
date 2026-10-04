@@ -6,3 +6,6 @@ xgboost>=2.0
 shap>=0.45
 matplotlib>=3.8
 pyarrow>=14.0
+pyyaml>=6.0
+tqdm>=4.66
+joblib>=1.3

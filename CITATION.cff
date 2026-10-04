@@ -1,14 +1,29 @@
 cff-version: 1.2.0
+message: "If you use this pipeline or its results, please cite it as below."
+type: software
 title: "When Does SHAP-Based Drift Localization Beat a Simple Statistical Test? A Pre-Registered Evaluation Across Three Intrusion Detection Datasets"
 authors:
   - family-names: "Lamichhane"
     given-names: "Sandesh"
     orcid: "https://orcid.org/0009-0000-1878-9431"
+    affiliation: "Yenepoya (Deemed to be University)"
   - family-names: "N"
     given-names: "Usman Aijaz"
     orcid: "https://orcid.org/0000-0003-0955-044X"
-message: "If you use this pipeline or its results, please cite the paper."
+    affiliation: "Yenepoya (Deemed to be University)"
+repository-code: "https://github.com/sandesh20lamichhane/ids-drift-localization"
+license: MIT
+version: "1.0.1"
+date-released: "2026-08-09"
+doi: 10.5281/zenodo.21856844
 identifiers:
   - type: doi
     value: 10.5281/zenodo.21856844
     description: "Archived release v1.0.1 on Zenodo"
+keywords:
+  - concept drift
+  - drift localization
+  - intrusion detection
+  - SHAP
+  - explainable AI
+  - pre-registration

@@ -35,10 +35,11 @@ Usage from a Colab notebook (after mounting Drive and adding the repo to path):
     )
 """
 
+import os
 from pathlib import Path
 import datetime
 
-THESIS_ROOT = Path('/content/drive/MyDrive/phd_thesis')
+THESIS_ROOT = Path(os.environ.get('THESIS_ROOT', '/content/drive/MyDrive/phd_thesis'))
 ADVISOR_NOTES = THESIS_ROOT / 'reports' / 'advisor_notes'
 
 FINDINGS_LOG = ADVISOR_NOTES / 'findings_log.md'
