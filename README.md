@@ -11,7 +11,8 @@ files for the paper. Every number in the manuscript traces to a file under
 further down says which.
 
 Archived on Zenodo: [10.5281/zenodo.21856843](https://doi.org/10.5281/zenodo.21856843)
-(this DOI always resolves to the latest version). Release v1.1.0 is the version that
+(this DOI always resolves to the latest version). Release v1.1.0
+([10.5281/zenodo.23134044](https://doi.org/10.5281/zenodo.23134044)) is the version that
 accompanies the revised paper and includes the revision benchmark
 (`notebooks/09_revision/`); v1.0.1 ([10.5281/zenodo.21856844](https://doi.org/10.5281/zenodo.21856844))
 is the earlier submission snapshot.

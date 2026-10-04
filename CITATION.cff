@@ -21,6 +21,9 @@ identifiers:
     value: 10.5281/zenodo.21856843
     description: "Zenodo concept DOI, resolves to the latest archived release"
   - type: doi
+    value: 10.5281/zenodo.23134044
+    description: "Archived release v1.1.0 on Zenodo (revised paper)"
+  - type: doi
     value: 10.5281/zenodo.21856844
     description: "Archived release v1.0.1 on Zenodo"
 keywords:
