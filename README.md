@@ -77,7 +77,9 @@ under `reports/figures/`. Figure and section numbers follow the revised manuscri
 Each experiment's predictions and gates were committed to this repository before it
 was run; the commit hash is recorded in the corresponding notebook or addendum. The
 revision benchmark is pre-registered in `reports/advisor_notes/PREREG_known_gt.md`
-at commit `431365b`, before notebook 28 was run. The executed notebook differs from
+at commit `431365b`, before notebook 28 was run. That commit is in the history of
+release `v1.1.0`; the history of `main` was later rewritten to correct commit
+authorship only, with no change to any file. The executed notebook differs from
 the committed one only in the line that records that hash.
 
 ## Data
