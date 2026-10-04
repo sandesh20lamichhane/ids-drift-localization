@@ -25,6 +25,7 @@ Example:
 """
 from __future__ import annotations
 
+import os
 from pathlib import Path
 from typing import Iterator, Optional
 
@@ -33,7 +34,7 @@ import pandas as pd
 # -----------------------------------------------------------------------------
 # Paths
 
-THESIS_ROOT = Path('/content/drive/MyDrive/phd_thesis')
+THESIS_ROOT = Path(os.environ.get('THESIS_ROOT', '/content/drive/MyDrive/phd_thesis'))
 PROCESSED = THESIS_ROOT / 'data' / 'processed'
 
 # CICIDS2017 weekday order for streaming experiments (chronological).
