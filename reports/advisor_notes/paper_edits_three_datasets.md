@@ -117,7 +117,10 @@ not replicate on CICIDS. ... reliably beat the cheap test."):
 > top-10 per-feature KS, 0.351) through +0.167 (DDoS) and +0.100 (Bot) to
 > exactly 0.000 on Infiltration, the most marginal arm (0.451) — four
 > points at precision@10 granularity, so we read this as corroboration of
-> the cross-dataset gradient, not an independent law. The neural advantage
+> the cross-dataset gradient, not an independent law. The MLP's advantage
+> on 2018 is itself significant as a paired test (Δ=+0.125, p<0.05,
+> n=12 family×seed pairs), so the boundary is inferential, not merely a
+> point-estimate pattern. The neural advantage
 > is therefore not drift-*dataset*-dependent but drift-*marginality*-
 > dependent: a characterized boundary of C2. The core claims are untouched
 > by it — the dual signal adds nothing for any model on any dataset, KS is
@@ -144,11 +147,19 @@ boundary of Sec. IV-G."
 
 ## 9. Table IV — new rows (values from the notebook-15 re-run)
 
-- KS vs domain-SHAP (2018, trees): ⟨Δ, CI, p, d_z⟩
-- dual vs domain-SHAP (2018, all models): ⟨Δ, CI, p, d_z⟩
-- domain-SHAP(MLP) vs KS (2018, GT_in): ⟨Δ, CI, p, d_z⟩  ← new row type;
-  n = 4 families × 3 seeds = 12 pairs
-- domain-SHAP vs KS against GT_ex (2018, circularity): ⟨…⟩
+The regenerated `15_tabsig.tex` body IS the new Table IV — paste it whole.
+Headline values (exact CI/p/d_z in `15_significance_tabsig.csv`):
+- **KS vs domain-SHAP (2018, trees): Δ=+0.129, significant** (n=24) — new:
+  on UNSW this comparison was a non-significant +0.044; add one sentence in
+  IV-H noting KS now significantly exceeds tree explanation localizers on
+  the third dataset.
+- dual vs domain-SHAP (2018, all models): Δ=−0.031, [−0.08, +0.01],
+  p=0.223 (n=36) — indistinguishable, as everywhere.
+- **KS vs random (2018, trees): Δ=+0.350, significant** (n=24).
+- **domain-SHAP(MLP) vs KS (2018, GT_in): Δ=+0.125, significant** (n=12)
+  — the P6 marginality boundary, inferential.
+- **domain-SHAP vs KS, GT_ex (2018, trees): Δ=+0.221, significant** (n=24)
+  — circularity replication, within 0.007 of UNSW's +0.228.
 
 ## 10. Table V (claims map) — add to the Evidence column
 
@@ -202,10 +213,8 @@ making the neural advantage drift-dependent rather than robust." **with:**
 
 ## 14. Remaining pipeline before these edits are final
 
-1. Extend `99_paper_figures/15_significance_tests.ipynb` with the 2018
-   pairs (fills every ⟨…⟩ above): KS-vs-dom trees n=24 (2 models × 4
-   families × 3 seeds), dual-vs-dom n=36, MLP-dom-vs-KS n=12, circularity
-   n=36.
+1. ~~Extend notebook 15 with the 2018 pairs~~ **DONE** — v2 run clean, all
+   deltas reconciled; `15_tabsig.tex` regenerated with the 2018 rows.
 2. Figures: `25_cse2018_benchmark` → Fig. 8/9-analog; `25b_regime_
    diagnostic` → new small figure in IV-G (optionally overlay the three
    cross-dataset points on the same axes).
