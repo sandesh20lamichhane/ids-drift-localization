@@ -32,7 +32,7 @@ so that the drifted features are known.
 | Fig. 1, P(X) stability of the concept arm | `02_phase1_synthetic/f001_pxstability_check` | `data/processed/f001_pxstability.json` |
 | Fig. 2, drift premise (recall collapse) | `01_phase0_foundation/06_baseline_rf_per_day` | `reports/tables/06_baseline_metrics.csv`, `phase1_06_baseline.json` |
 | Sec. 4.2, planted ground truth (CICIDS2017 testbed) | `03_phase1_cicids/07e_drift_regime_testbed` | `phase1_07e_regime_testbed.json` |
-| Sec. 4.2, planted ground truth (three datasets, pre-registered) | `09_revision/28_known_gt_benchmark` | `28_known_gt_summary.csv`, `28_known_gt_tests.csv`, `phase8_28_known_gt.json` (added when the run completes) |
+| Sec. 4.2, planted ground truth (three datasets, pre-registered) | `09_revision/28_known_gt_benchmark` | `28_known_gt_raw.csv`, `28_known_gt_summary.csv`, `28_known_gt_tests.csv` |
 | Fig. 3, dual vs. auxiliary SHAP | `03_phase1_cicids/07_localization_dual_shap` | `07_localization_raw.csv`, `phase1_07_localization.json` |
 | Fig. 4, ground-truth modality | `03_phase1_cicids/07c_ks_vs_shap_localization` | `phase1_07c_ks_vs_shap.json` |
 | Fig. 5, instability vs. disagreement | `03_phase1_cicids/07d_disagreement_stability` | `phase1_07d_disagreement.json` |
@@ -75,7 +75,8 @@ under `reports/figures/`. Figure and section numbers follow the revised manuscri
 Each experiment's predictions and gates were committed to this repository before it
 was run; the commit hash is recorded in the corresponding notebook or addendum. The
 revision benchmark is pre-registered in `reports/advisor_notes/PREREG_known_gt.md`
-at commit `431365b`, before notebook 28 was run.
+at commit `431365b`, before notebook 28 was run. The executed notebook differs from
+the committed one only in the line that records that hash.
 
 ## Data
 Datasets are **not** redistributed here and remain subject to their distributors'
