@@ -10,10 +10,11 @@ files for the paper. Every number in the manuscript traces to a file under
 `reports/tables/` or `data/processed/` that a notebook below generates; the map
 further down says which.
 
-Archived release: Zenodo, [10.5281/zenodo.21856844](https://doi.org/10.5281/zenodo.21856844) (v1.0.1).
-That release is the submission snapshot. The revision benchmark
-(`notebooks/09_revision/`) and the Holm correction script were added after it and
-will be archived in the next Zenodo version.
+Archived on Zenodo: [10.5281/zenodo.21856843](https://doi.org/10.5281/zenodo.21856843)
+(this DOI always resolves to the latest version). Release v1.1.0 is the version that
+accompanies the revised paper and includes the revision benchmark
+(`notebooks/09_revision/`); v1.0.1 ([10.5281/zenodo.21856844](https://doi.org/10.5281/zenodo.21856844))
+is the earlier submission snapshot.
 
 ## What the paper tests
 When a deployed IDS degrades under drift, can SHAP-based signals tell an operator

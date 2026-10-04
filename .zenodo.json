@@ -1,0 +1,27 @@
+{
+  "upload_type": "software",
+  "title": "When Does SHAP-Based Drift Localization Beat a Simple Statistical Test? A Pre-Registered Evaluation Across Three Intrusion Detection Datasets (code and results)",
+  "description": "Notebook pipeline, pre-registration documents and result files for the paper of the same title. Compares a per-feature Kolmogorov-Smirnov test, a conditional KS test, domain-classifier SHAP, permutation importance, auxiliary-detector SHAP and a dual-model SHAP divergence as drift localizers on CICIDS2017, UNSW-NB15 and CSE-CIC-IDS2018, on real and planted drift. Datasets are not redistributed.",
+  "creators": [
+    {
+      "name": "Lamichhane, Sandesh",
+      "affiliation": "Yenepoya (Deemed to be University)",
+      "orcid": "0009-0000-1878-9431"
+    },
+    {
+      "name": "N, Usman Aijaz",
+      "affiliation": "Yenepoya (Deemed to be University)",
+      "orcid": "0000-0003-0955-044X"
+    }
+  ],
+  "license": "MIT",
+  "access_right": "open",
+  "keywords": [
+    "concept drift",
+    "drift localization",
+    "intrusion detection",
+    "SHAP",
+    "explainable AI",
+    "pre-registration"
+  ]
+}
